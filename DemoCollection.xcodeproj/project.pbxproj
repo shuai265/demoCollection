@@ -57,8 +57,9 @@
 		4B1DE0A71FA31CB90067B8DA /* DCBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseNavViewController.m; sourceTree = "<group>"; };
 		4B1DE0A91FA31D640067B8DA /* DCMainServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMainServiceController.h; sourceTree = "<group>"; };
 		4B1DE0AA1FA31D640067B8DA /* DCMainServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMainServiceController.m; sourceTree = "<group>"; };
+		4B650BBF1FC65CB9007A6699 /* KeysSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeysSecrets.h; sourceTree = "<group>"; };
+		4B650BC01FC65CE7007A6699 /* Demo_KeysSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_KeysSecrets.h; sourceTree = "<group>"; };
 		4B9207F71FC511C200C3B6AC /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
-		4B9207F81FC5121300C3B6AC /* DefinesReal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefinesReal.h; sourceTree = "<group>"; };
 		67DD4A3396001682871EEE1A /* libPods-DemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7309ABDA2E8787EE926DC9F /* Pods-DemoCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection.debug.xcconfig"; sourceTree = "<group>"; };
 		EC311D67C4456FC5862E61A1 /* Pods-DemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				4B9207F71FC511C200C3B6AC /* Defines.h */,
-				4B9207F81FC5121300C3B6AC /* DefinesReal.h */,
+				4B650BBF1FC65CB9007A6699 /* KeysSecrets.h */,
+				4B650BC01FC65CE7007A6699 /* Demo_KeysSecrets.h */,
 			);
 			name = Defines;
 			sourceTree = "<group>";
@@ -233,6 +235,8 @@
 		4B1DE08A1FA2EDA80067B8DA /* Cocoa Lib（Cocoa库） */ = {
 			isa = PBXGroup;
 			children = (
+				4B650BBD1FC589F1007A6699 /* MainCocoaNav */,
+				4B650BBE1FC589FE007A6699 /* MainCocoaVC */,
 			);
 			name = "Cocoa Lib（Cocoa库）";
 			sourceTree = "<group>";
@@ -282,6 +286,20 @@
 				4B1DE0A71FA31CB90067B8DA /* DCBaseNavViewController.m */,
 			);
 			name = BaseVC;
+			sourceTree = "<group>";
+		};
+		4B650BBD1FC589F1007A6699 /* MainCocoaNav */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MainCocoaNav;
+			sourceTree = "<group>";
+		};
+		4B650BBE1FC589FE007A6699 /* MainCocoaVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MainCocoaVC;
 			sourceTree = "<group>";
 		};
 		4BB13A8ABD4119B3875F392F /* Pods */ = {

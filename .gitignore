@@ -1,0 +1,6 @@
+*.[oa]
+*~
+/SDK Files
+/*.xmind
+/Pods
+/DemoCollection/KeysSecrets.h
