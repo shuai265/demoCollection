@@ -23,6 +23,15 @@
 		4B1DE0A51FA31C4C0067B8DA /* DCMainServiceNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DE0A41FA31C4C0067B8DA /* DCMainServiceNavController.m */; };
 		4B1DE0A81FA31CB90067B8DA /* DCBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DE0A71FA31CB90067B8DA /* DCBaseNavViewController.m */; };
 		4B1DE0AB1FA31D640067B8DA /* DCMainServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DE0AA1FA31D640067B8DA /* DCMainServiceController.m */; };
+		4B4AE35D1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE35B1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m */; };
+		4B4AE35E1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4AE35C1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib */; };
+		4B4AE3611FD0E86D003BBB16 /* DCARCObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE3601FD0E86D003BBB16 /* DCARCObj.m */; };
+		4B4AE3641FD0E879003BBB16 /* DCMRCObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE3631FD0E879003BBB16 /* DCMRCObj.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4B4AE38E1FD1096E003BBB16 /* DCKnowledgeNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE38D1FD1096E003BBB16 /* DCKnowledgeNavController.m */; };
+		4B4AE3911FD10985003BBB16 /* DCKnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE3901FD10985003BBB16 /* DCKnowledgeViewController.m */; };
+		4B4AE3951FD10A65003BBB16 /* DCMainCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE3941FD10A65003BBB16 /* DCMainCommonViewController.m */; };
+		4B4AE3981FD10A87003BBB16 /* DCMainCommonlyNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE3971FD10A87003BBB16 /* DCMainCommonlyNavController.m */; };
+		4B4AE39C1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE39B1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m */; };
 		512A6F3819B216FC21C79FB3 /* libPods-DemoCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DD4A3396001682871EEE1A /* libPods-DemoCollection.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +66,23 @@
 		4B1DE0A71FA31CB90067B8DA /* DCBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseNavViewController.m; sourceTree = "<group>"; };
 		4B1DE0A91FA31D640067B8DA /* DCMainServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMainServiceController.h; sourceTree = "<group>"; };
 		4B1DE0AA1FA31D640067B8DA /* DCMainServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMainServiceController.m; sourceTree = "<group>"; };
+		4B4AE35A1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKnowledgeARCMRCViewController.h; sourceTree = "<group>"; };
+		4B4AE35B1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKnowledgeARCMRCViewController.m; sourceTree = "<group>"; };
+		4B4AE35C1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCKnowledgeARCMRCViewController.xib; sourceTree = "<group>"; };
+		4B4AE35F1FD0E86D003BBB16 /* DCARCObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCARCObj.h; sourceTree = "<group>"; };
+		4B4AE3601FD0E86D003BBB16 /* DCARCObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCARCObj.m; sourceTree = "<group>"; };
+		4B4AE3621FD0E879003BBB16 /* DCMRCObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMRCObj.h; sourceTree = "<group>"; };
+		4B4AE3631FD0E879003BBB16 /* DCMRCObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMRCObj.m; sourceTree = "<group>"; };
+		4B4AE38C1FD1096E003BBB16 /* DCKnowledgeNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKnowledgeNavController.h; sourceTree = "<group>"; };
+		4B4AE38D1FD1096E003BBB16 /* DCKnowledgeNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKnowledgeNavController.m; sourceTree = "<group>"; };
+		4B4AE38F1FD10985003BBB16 /* DCKnowledgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKnowledgeViewController.h; sourceTree = "<group>"; };
+		4B4AE3901FD10985003BBB16 /* DCKnowledgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKnowledgeViewController.m; sourceTree = "<group>"; };
+		4B4AE3931FD10A65003BBB16 /* DCMainCommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMainCommonViewController.h; sourceTree = "<group>"; };
+		4B4AE3941FD10A65003BBB16 /* DCMainCommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMainCommonViewController.m; sourceTree = "<group>"; };
+		4B4AE3961FD10A87003BBB16 /* DCMainCommonlyNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMainCommonlyNavController.h; sourceTree = "<group>"; };
+		4B4AE3971FD10A87003BBB16 /* DCMainCommonlyNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMainCommonlyNavController.m; sourceTree = "<group>"; };
+		4B4AE39A1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKnowledgeSingletonViewController.h; sourceTree = "<group>"; };
+		4B4AE39B1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKnowledgeSingletonViewController.m; sourceTree = "<group>"; };
 		4B650BBF1FC65CB9007A6699 /* KeysSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeysSecrets.h; sourceTree = "<group>"; };
 		4B650BC01FC65CE7007A6699 /* Demo_KeysSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_KeysSecrets.h; sourceTree = "<group>"; };
 		4B9207F71FC511C200C3B6AC /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
@@ -107,13 +133,16 @@
 			isa = PBXGroup;
 			children = (
 				4B1DE06B1FA2E3C10067B8DA /* AppDelegate */,
-				4B1DE0731FA2E8120067B8DA /* Main Tab Controller */,
+				4B1DE0731FA2E8120067B8DA /* Main Tab Controller（入口） */,
 				4B1DE0A21FA31A780067B8DA /* BaseVC */,
 				4B1DE06E1FA2E47D0067B8DA /* Third party service（第三方服务） */,
 				4B1DE06D1FA2E4010067B8DA /* Third party library（第三方类库） */,
 				4B1DE08A1FA2EDA80067B8DA /* Cocoa Lib（Cocoa库） */,
 				4B1DE0891FA2ED600067B8DA /* Commonly Module(常用模块) */,
+				4B4AE3581FD0E7DF003BBB16 /* Knowledge(知识点) */,
 				4B1DE06C1FA2E3CF0067B8DA /* Defines */,
+				4B4AE3A71FD14153003BBB16 /* Category */,
+				4B4AE3A61FD14149003BBB16 /* Tools */,
 				4B1DE0541FA2BD4A0067B8DA /* Supporting Files */,
 			);
 			path = DemoCollection;
@@ -169,13 +198,13 @@
 			name = "Third party service（第三方服务）";
 			sourceTree = "<group>";
 		};
-		4B1DE0731FA2E8120067B8DA /* Main Tab Controller */ = {
+		4B1DE0731FA2E8120067B8DA /* Main Tab Controller（入口） */ = {
 			isa = PBXGroup;
 			children = (
 				4B1DE0741FA2EB8B0067B8DA /* DCMainTabBarController.h */,
 				4B1DE0751FA2EB8B0067B8DA /* DCMainTabBarController.m */,
 			);
-			name = "Main Tab Controller";
+			name = "Main Tab Controller（入口）";
 			sourceTree = "<group>";
 		};
 		4B1DE0771FA2EB9D0067B8DA /* MainServiceNav */ = {
@@ -228,6 +257,10 @@
 		4B1DE0891FA2ED600067B8DA /* Commonly Module(常用模块) */ = {
 			isa = PBXGroup;
 			children = (
+				4B4AE3921FD10A33003BBB16 /* MainCommonly */,
+				4B4AE3A21FD1403E003BBB16 /* LaunchPage(启动页) */,
+				4B4AE3A11FD1402B003BBB16 /* ADPage(广告页) */,
+				4B4AE3A31FD14072003BBB16 /* Banner(轮播图) */,
 			);
 			name = "Commonly Module(常用模块)";
 			sourceTree = "<group>";
@@ -286,6 +319,160 @@
 				4B1DE0A71FA31CB90067B8DA /* DCBaseNavViewController.m */,
 			);
 			name = BaseVC;
+			sourceTree = "<group>";
+		};
+		4B4AE3581FD0E7DF003BBB16 /* Knowledge(知识点) */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AE38B1FD10932003BBB16 /* MainKnowledge */,
+				4B4AE3591FD0E81A003BBB16 /* ARC&MRC */,
+				4B4AE3991FD13997003BBB16 /* Singleton(单例) */,
+				4B4AE39D1FD13A2C003BBB16 /* Multithreading(多线程) */,
+				4B4AE39E1FD13A46003BBB16 /* DataPersistence(数据持久化) */,
+				4B4AE3A01FD14002003BBB16 /* WebView&H5 */,
+				4B4AE3A41FD1412F003BBB16 /* Block */,
+				4B4AE3A51FD14135003BBB16 /* Delegate */,
+				4B4AE3A81FD1416E003BBB16 /* Category */,
+				4B4AE3A91FD14193003BBB16 /* Notification */,
+			);
+			name = "Knowledge(知识点)";
+			sourceTree = "<group>";
+		};
+		4B4AE3591FD0E81A003BBB16 /* ARC&MRC */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AE35A1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.h */,
+				4B4AE35B1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m */,
+				4B4AE35C1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib */,
+				4B4AE35F1FD0E86D003BBB16 /* DCARCObj.h */,
+				4B4AE3601FD0E86D003BBB16 /* DCARCObj.m */,
+				4B4AE3621FD0E879003BBB16 /* DCMRCObj.h */,
+				4B4AE3631FD0E879003BBB16 /* DCMRCObj.m */,
+			);
+			name = "ARC&MRC";
+			sourceTree = "<group>";
+		};
+		4B4AE38B1FD10932003BBB16 /* MainKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AE38C1FD1096E003BBB16 /* DCKnowledgeNavController.h */,
+				4B4AE38D1FD1096E003BBB16 /* DCKnowledgeNavController.m */,
+				4B4AE38F1FD10985003BBB16 /* DCKnowledgeViewController.h */,
+				4B4AE3901FD10985003BBB16 /* DCKnowledgeViewController.m */,
+			);
+			name = MainKnowledge;
+			sourceTree = "<group>";
+		};
+		4B4AE3921FD10A33003BBB16 /* MainCommonly */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AE3961FD10A87003BBB16 /* DCMainCommonlyNavController.h */,
+				4B4AE3971FD10A87003BBB16 /* DCMainCommonlyNavController.m */,
+				4B4AE3931FD10A65003BBB16 /* DCMainCommonViewController.h */,
+				4B4AE3941FD10A65003BBB16 /* DCMainCommonViewController.m */,
+			);
+			name = MainCommonly;
+			sourceTree = "<group>";
+		};
+		4B4AE3991FD13997003BBB16 /* Singleton(单例) */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AE39A1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.h */,
+				4B4AE39B1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m */,
+			);
+			name = "Singleton(单例)";
+			sourceTree = "<group>";
+		};
+		4B4AE39D1FD13A2C003BBB16 /* Multithreading(多线程) */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AE39F1FD13B68003BBB16 /* GDC NSThread */,
+			);
+			name = "Multithreading(多线程)";
+			sourceTree = "<group>";
+		};
+		4B4AE39E1FD13A46003BBB16 /* DataPersistence(数据持久化) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "DataPersistence(数据持久化)";
+			sourceTree = "<group>";
+		};
+		4B4AE39F1FD13B68003BBB16 /* GDC NSThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "GDC NSThread";
+			sourceTree = "<group>";
+		};
+		4B4AE3A01FD14002003BBB16 /* WebView&H5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "WebView&H5";
+			sourceTree = "<group>";
+		};
+		4B4AE3A11FD1402B003BBB16 /* ADPage(广告页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "ADPage(广告页)";
+			sourceTree = "<group>";
+		};
+		4B4AE3A21FD1403E003BBB16 /* LaunchPage(启动页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "LaunchPage(启动页)";
+			sourceTree = "<group>";
+		};
+		4B4AE3A31FD14072003BBB16 /* Banner(轮播图) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Banner(轮播图)";
+			sourceTree = "<group>";
+		};
+		4B4AE3A41FD1412F003BBB16 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Block;
+			sourceTree = "<group>";
+		};
+		4B4AE3A51FD14135003BBB16 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		4B4AE3A61FD14149003BBB16 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		4B4AE3A71FD14153003BBB16 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		4B4AE3A81FD1416E003BBB16 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		4B4AE3A91FD14193003BBB16 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Notification;
 			sourceTree = "<group>";
 		};
 		4B650BBD1FC589F1007A6699 /* MainCocoaNav */ = {
@@ -375,6 +562,7 @@
 			files = (
 				4B1DE0641FA2BD4A0067B8DA /* LaunchScreen.storyboard in Resources */,
 				4B1DE0611FA2BD4A0067B8DA /* Assets.xcassets in Resources */,
+				4B4AE35E1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib in Resources */,
 				4B1DE05F1FA2BD4A0067B8DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,14 +632,22 @@
 				4B1DE0821FA2ED020067B8DA /* DCMainLibNavController.m in Sources */,
 				4B1DE0981FA303D00067B8DA /* DCMapGaodeViewController.m in Sources */,
 				4B1DE0A81FA31CB90067B8DA /* DCBaseNavViewController.m in Sources */,
+				4B4AE3981FD10A87003BBB16 /* DCMainCommonlyNavController.m in Sources */,
 				4B1DE09E1FA31A2D0067B8DA /* DCBaseViewController.m in Sources */,
 				4B1DE0A51FA31C4C0067B8DA /* DCMainServiceNavController.m in Sources */,
 				4B1DE0591FA2BD4A0067B8DA /* AppDelegate.m in Sources */,
+				4B4AE35D1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m in Sources */,
 				4B1DE0761FA2EB8B0067B8DA /* DCMainTabBarController.m in Sources */,
 				4B1DE09B1FA303DD0067B8DA /* DCMapTencentViewController.m in Sources */,
+				4B4AE3641FD0E879003BBB16 /* DCMRCObj.m in Sources */,
+				4B4AE3951FD10A65003BBB16 /* DCMainCommonViewController.m in Sources */,
+				4B4AE3911FD10985003BBB16 /* DCKnowledgeViewController.m in Sources */,
 				4B1DE0911FA2F1300067B8DA /* DCMapViewController.m in Sources */,
+				4B4AE3611FD0E86D003BBB16 /* DCARCObj.m in Sources */,
+				4B4AE39C1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m in Sources */,
 				4B1DE0AB1FA31D640067B8DA /* DCMainServiceController.m in Sources */,
 				4B1DE0561FA2BD4A0067B8DA /* main.m in Sources */,
+				4B4AE38E1FD1096E003BBB16 /* DCKnowledgeNavController.m in Sources */,
 				4B1DE0881FA2ED410067B8DA /* DCMainLibViewController.m in Sources */,
 				4B1DE0951FA303C40067B8DA /* DCMapBaiduViewController.m in Sources */,
 			);

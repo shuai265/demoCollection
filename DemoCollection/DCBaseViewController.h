@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface DCBaseViewController : UIViewController
-
+@property (nonatomic,copy) NSArray *listArr;
+@property (nonatomic,strong) UITableView *tableView;
 @end

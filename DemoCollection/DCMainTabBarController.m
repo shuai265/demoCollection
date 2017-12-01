@@ -11,6 +11,11 @@
 #import "DCMainServiceController.h"
 #import "DCMainLibNavController.h"
 #import "DCMainLibViewController.h"
+#import "DCMainCommonlyNavController.h"
+#import "DCMainCommonViewController.h"
+#import "DCKnowledgeNavController.h"
+#import "DCKnowledgeViewController.h"
+
 
 @interface DCMainTabBarController ()
 
@@ -26,7 +31,11 @@
     
     DCMainLibNavController *libNav = [[DCMainLibNavController alloc] initWithRootViewController:[[DCMainLibViewController alloc] init]];
     
-    self.viewControllers = @[serviceNav,libNav];
+    DCMainCommonlyNavController *commonNav = [[DCMainCommonlyNavController alloc] initWithRootViewController:[[DCMainCommonViewController alloc] init]];
+    
+    DCKnowledgeNavController *knowledgeNav = [[DCKnowledgeNavController alloc] initWithRootViewController:[[DCKnowledgeViewController alloc] init]];
+    
+    self.viewControllers = @[serviceNav,libNav,commonNav,knowledgeNav];
 }
 
 
