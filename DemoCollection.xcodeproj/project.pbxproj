@@ -32,6 +32,18 @@
 		4B4AE3951FD10A65003BBB16 /* DCMainCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE3941FD10A65003BBB16 /* DCMainCommonViewController.m */; };
 		4B4AE3981FD10A87003BBB16 /* DCMainCommonlyNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE3971FD10A87003BBB16 /* DCMainCommonlyNavController.m */; };
 		4B4AE39C1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE39B1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m */; };
+		4B55DE411FD7D9FC00677AE1 /* DCLazyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DE401FD7D9FC00677AE1 /* DCLazyTableViewController.m */; };
+		4B55DE451FD7DA9800677AE1 /* ParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DE441FD7DA9800677AE1 /* ParseOperation.m */; };
+		4B55DE481FD7DAB400677AE1 /* AppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DE471FD7DAB400677AE1 /* AppRecord.m */; };
+		4B55DE4B1FD7DACB00677AE1 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55DE4A1FD7DACB00677AE1 /* IconDownloader.m */; };
+		4B58EBF01FD25947008D6759 /* DCCocoaNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58EBEF1FD25947008D6759 /* DCCocoaNavController.m */; };
+		4B58EBF31FD2595B008D6759 /* DCCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58EBF21FD2595B008D6759 /* DCCocoaViewController.m */; };
+		4B58EBF61FD25AB9008D6759 /* DCWebListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58EBF51FD25AB9008D6759 /* DCWebListViewController.m */; };
+		4B58EBF91FD25B86008D6759 /* DCWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58EBF81FD25B86008D6759 /* DCWKWebViewController.m */; };
+		4BD4EB401FE00DE20018DC2B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD4EB3F1FE00DE20018DC2B /* libsqlite3.0.tbd */; };
+		4BD4EB441FE00F6D0018DC2B /* DCDBMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4EB431FE00F6D0018DC2B /* DCDBMainTableViewController.m */; };
+		4BD4EB481FE0105E0018DC2B /* DCDBSQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4EB461FE0105E0018DC2B /* DCDBSQLiteViewController.m */; };
+		4BD4EB491FE0105E0018DC2B /* DCDBSQLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BD4EB471FE0105E0018DC2B /* DCDBSQLiteViewController.xib */; };
 		512A6F3819B216FC21C79FB3 /* libPods-DemoCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DD4A3396001682871EEE1A /* libPods-DemoCollection.a */; };
 /* End PBXBuildFile section */
 
@@ -83,9 +95,33 @@
 		4B4AE3971FD10A87003BBB16 /* DCMainCommonlyNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMainCommonlyNavController.m; sourceTree = "<group>"; };
 		4B4AE39A1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKnowledgeSingletonViewController.h; sourceTree = "<group>"; };
 		4B4AE39B1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKnowledgeSingletonViewController.m; sourceTree = "<group>"; };
+		4B55DE3F1FD7D9FC00677AE1 /* DCLazyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLazyTableViewController.h; sourceTree = "<group>"; };
+		4B55DE401FD7D9FC00677AE1 /* DCLazyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLazyTableViewController.m; sourceTree = "<group>"; };
+		4B55DE421FD7DA1200677AE1 /* LazyTable.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LazyTable.md; sourceTree = "<group>"; };
+		4B55DE431FD7DA9800677AE1 /* ParseOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseOperation.h; sourceTree = "<group>"; };
+		4B55DE441FD7DA9800677AE1 /* ParseOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseOperation.m; sourceTree = "<group>"; };
+		4B55DE461FD7DAB400677AE1 /* AppRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppRecord.h; sourceTree = "<group>"; };
+		4B55DE471FD7DAB400677AE1 /* AppRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppRecord.m; sourceTree = "<group>"; };
+		4B55DE491FD7DACB00677AE1 /* IconDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		4B55DE4A1FD7DACB00677AE1 /* IconDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		4B58EBEE1FD25947008D6759 /* DCCocoaNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCCocoaNavController.h; sourceTree = "<group>"; };
+		4B58EBEF1FD25947008D6759 /* DCCocoaNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCCocoaNavController.m; sourceTree = "<group>"; };
+		4B58EBF11FD2595B008D6759 /* DCCocoaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCCocoaViewController.h; sourceTree = "<group>"; };
+		4B58EBF21FD2595B008D6759 /* DCCocoaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCCocoaViewController.m; sourceTree = "<group>"; };
+		4B58EBF41FD25AB9008D6759 /* DCWebListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCWebListViewController.h; sourceTree = "<group>"; };
+		4B58EBF51FD25AB9008D6759 /* DCWebListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCWebListViewController.m; sourceTree = "<group>"; };
+		4B58EBF71FD25B86008D6759 /* DCWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCWKWebViewController.h; sourceTree = "<group>"; };
+		4B58EBF81FD25B86008D6759 /* DCWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCWKWebViewController.m; sourceTree = "<group>"; };
+		4B58EBFA1FD27F86008D6759 /* DemoCollectionPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCollectionPrefix.pch; sourceTree = "<group>"; };
 		4B650BBF1FC65CB9007A6699 /* KeysSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeysSecrets.h; sourceTree = "<group>"; };
 		4B650BC01FC65CE7007A6699 /* Demo_KeysSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_KeysSecrets.h; sourceTree = "<group>"; };
 		4B9207F71FC511C200C3B6AC /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		4BD4EB3F1FE00DE20018DC2B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4BD4EB421FE00F6D0018DC2B /* DCDBMainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDBMainTableViewController.h; sourceTree = "<group>"; };
+		4BD4EB431FE00F6D0018DC2B /* DCDBMainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDBMainTableViewController.m; sourceTree = "<group>"; };
+		4BD4EB451FE0105E0018DC2B /* DCDBSQLiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDBSQLiteViewController.h; sourceTree = "<group>"; };
+		4BD4EB461FE0105E0018DC2B /* DCDBSQLiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDBSQLiteViewController.m; sourceTree = "<group>"; };
+		4BD4EB471FE0105E0018DC2B /* DCDBSQLiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCDBSQLiteViewController.xib; sourceTree = "<group>"; };
 		67DD4A3396001682871EEE1A /* libPods-DemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7309ABDA2E8787EE926DC9F /* Pods-DemoCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection.debug.xcconfig"; sourceTree = "<group>"; };
 		EC311D67C4456FC5862E61A1 /* Pods-DemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD4EB401FE00DE20018DC2B /* libsqlite3.0.tbd in Frameworks */,
 				512A6F3819B216FC21C79FB3 /* libPods-DemoCollection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +143,7 @@
 		300992D42918995875FCFCE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4BD4EB3F1FE00DE20018DC2B /* libsqlite3.0.tbd */,
 				67DD4A3396001682871EEE1A /* libPods-DemoCollection.a */,
 			);
 			name = Frameworks;
@@ -156,6 +194,7 @@
 				4B1DE0601FA2BD4A0067B8DA /* Assets.xcassets */,
 				4B1DE0651FA2BD4A0067B8DA /* Info.plist */,
 				4B1DE0551FA2BD4A0067B8DA /* main.m */,
+				4B58EBFA1FD27F86008D6759 /* DemoCollectionPrefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -258,9 +297,15 @@
 			isa = PBXGroup;
 			children = (
 				4B4AE3921FD10A33003BBB16 /* MainCommonly */,
+				4B55DE3E1FD7D9A200677AE1 /* LazyTable(懒加载图片) */,
 				4B4AE3A21FD1403E003BBB16 /* LaunchPage(启动页) */,
 				4B4AE3A11FD1402B003BBB16 /* ADPage(广告页) */,
 				4B4AE3A31FD14072003BBB16 /* Banner(轮播图) */,
+				4BD4EB411FE00DF70018DC2B /* DataBase(数据库) */,
+				4B4AE3AC1FD14529003BBB16 /* Today Extension */,
+				4B4AE3AA1FD144CE003BBB16 /* URLScheme */,
+				4B4AE3AB1FD1451E003BBB16 /* Today */,
+				4B4AE3AD1FD14592003BBB16 /* 3D Touch */,
 			);
 			name = "Commonly Module(常用模块)";
 			sourceTree = "<group>";
@@ -270,6 +315,7 @@
 			children = (
 				4B650BBD1FC589F1007A6699 /* MainCocoaNav */,
 				4B650BBE1FC589FE007A6699 /* MainCocoaVC */,
+				4B58EBEB1FD2551B008D6759 /* WebView */,
 			);
 			name = "Cocoa Lib（Cocoa库）";
 			sourceTree = "<group>";
@@ -475,9 +521,82 @@
 			name = Notification;
 			sourceTree = "<group>";
 		};
+		4B4AE3AA1FD144CE003BBB16 /* URLScheme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = URLScheme;
+			sourceTree = "<group>";
+		};
+		4B4AE3AB1FD1451E003BBB16 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Today;
+			sourceTree = "<group>";
+		};
+		4B4AE3AC1FD14529003BBB16 /* Today Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Today Extension";
+			sourceTree = "<group>";
+		};
+		4B4AE3AD1FD14592003BBB16 /* 3D Touch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "3D Touch";
+			sourceTree = "<group>";
+		};
+		4B55DE3E1FD7D9A200677AE1 /* LazyTable(懒加载图片) */ = {
+			isa = PBXGroup;
+			children = (
+				4B55DE421FD7DA1200677AE1 /* LazyTable.md */,
+				4B55DE3F1FD7D9FC00677AE1 /* DCLazyTableViewController.h */,
+				4B55DE401FD7D9FC00677AE1 /* DCLazyTableViewController.m */,
+				4B55DE431FD7DA9800677AE1 /* ParseOperation.h */,
+				4B55DE441FD7DA9800677AE1 /* ParseOperation.m */,
+				4B55DE461FD7DAB400677AE1 /* AppRecord.h */,
+				4B55DE471FD7DAB400677AE1 /* AppRecord.m */,
+				4B55DE491FD7DACB00677AE1 /* IconDownloader.h */,
+				4B55DE4A1FD7DACB00677AE1 /* IconDownloader.m */,
+			);
+			name = "LazyTable(懒加载图片)";
+			sourceTree = "<group>";
+		};
+		4B58EBEB1FD2551B008D6759 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				4B58EBF41FD25AB9008D6759 /* DCWebListViewController.h */,
+				4B58EBF51FD25AB9008D6759 /* DCWebListViewController.m */,
+				4B58EBED1FD25552008D6759 /* WKWebView */,
+				4B58EBEC1FD25536008D6759 /* UIWebView */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		4B58EBEC1FD25536008D6759 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIWebView;
+			sourceTree = "<group>";
+		};
+		4B58EBED1FD25552008D6759 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				4B58EBF71FD25B86008D6759 /* DCWKWebViewController.h */,
+				4B58EBF81FD25B86008D6759 /* DCWKWebViewController.m */,
+			);
+			name = WKWebView;
+			sourceTree = "<group>";
+		};
 		4B650BBD1FC589F1007A6699 /* MainCocoaNav */ = {
 			isa = PBXGroup;
 			children = (
+				4B58EBEE1FD25947008D6759 /* DCCocoaNavController.h */,
+				4B58EBEF1FD25947008D6759 /* DCCocoaNavController.m */,
 			);
 			name = MainCocoaNav;
 			sourceTree = "<group>";
@@ -485,6 +604,8 @@
 		4B650BBE1FC589FE007A6699 /* MainCocoaVC */ = {
 			isa = PBXGroup;
 			children = (
+				4B58EBF11FD2595B008D6759 /* DCCocoaViewController.h */,
+				4B58EBF21FD2595B008D6759 /* DCCocoaViewController.m */,
 			);
 			name = MainCocoaVC;
 			sourceTree = "<group>";
@@ -496,6 +617,18 @@
 				EC311D67C4456FC5862E61A1 /* Pods-DemoCollection.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BD4EB411FE00DF70018DC2B /* DataBase(数据库) */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4EB421FE00F6D0018DC2B /* DCDBMainTableViewController.h */,
+				4BD4EB431FE00F6D0018DC2B /* DCDBMainTableViewController.m */,
+				4BD4EB451FE0105E0018DC2B /* DCDBSQLiteViewController.h */,
+				4BD4EB461FE0105E0018DC2B /* DCDBSQLiteViewController.m */,
+				4BD4EB471FE0105E0018DC2B /* DCDBSQLiteViewController.xib */,
+			);
+			name = "DataBase(数据库)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -563,6 +696,7 @@
 				4B1DE0641FA2BD4A0067B8DA /* LaunchScreen.storyboard in Resources */,
 				4B1DE0611FA2BD4A0067B8DA /* Assets.xcassets in Resources */,
 				4B4AE35E1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib in Resources */,
+				4BD4EB491FE0105E0018DC2B /* DCDBSQLiteViewController.xib in Resources */,
 				4B1DE05F1FA2BD4A0067B8DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -631,23 +765,33 @@
 			files = (
 				4B1DE0821FA2ED020067B8DA /* DCMainLibNavController.m in Sources */,
 				4B1DE0981FA303D00067B8DA /* DCMapGaodeViewController.m in Sources */,
+				4B58EBF01FD25947008D6759 /* DCCocoaNavController.m in Sources */,
 				4B1DE0A81FA31CB90067B8DA /* DCBaseNavViewController.m in Sources */,
 				4B4AE3981FD10A87003BBB16 /* DCMainCommonlyNavController.m in Sources */,
 				4B1DE09E1FA31A2D0067B8DA /* DCBaseViewController.m in Sources */,
 				4B1DE0A51FA31C4C0067B8DA /* DCMainServiceNavController.m in Sources */,
 				4B1DE0591FA2BD4A0067B8DA /* AppDelegate.m in Sources */,
+				4B55DE411FD7D9FC00677AE1 /* DCLazyTableViewController.m in Sources */,
+				4BD4EB481FE0105E0018DC2B /* DCDBSQLiteViewController.m in Sources */,
 				4B4AE35D1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m in Sources */,
 				4B1DE0761FA2EB8B0067B8DA /* DCMainTabBarController.m in Sources */,
 				4B1DE09B1FA303DD0067B8DA /* DCMapTencentViewController.m in Sources */,
+				4B55DE4B1FD7DACB00677AE1 /* IconDownloader.m in Sources */,
 				4B4AE3641FD0E879003BBB16 /* DCMRCObj.m in Sources */,
+				4B58EBF61FD25AB9008D6759 /* DCWebListViewController.m in Sources */,
 				4B4AE3951FD10A65003BBB16 /* DCMainCommonViewController.m in Sources */,
 				4B4AE3911FD10985003BBB16 /* DCKnowledgeViewController.m in Sources */,
 				4B1DE0911FA2F1300067B8DA /* DCMapViewController.m in Sources */,
 				4B4AE3611FD0E86D003BBB16 /* DCARCObj.m in Sources */,
 				4B4AE39C1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m in Sources */,
+				4B55DE451FD7DA9800677AE1 /* ParseOperation.m in Sources */,
+				4B58EBF31FD2595B008D6759 /* DCCocoaViewController.m in Sources */,
+				4B58EBF91FD25B86008D6759 /* DCWKWebViewController.m in Sources */,
+				4B55DE481FD7DAB400677AE1 /* AppRecord.m in Sources */,
 				4B1DE0AB1FA31D640067B8DA /* DCMainServiceController.m in Sources */,
 				4B1DE0561FA2BD4A0067B8DA /* main.m in Sources */,
 				4B4AE38E1FD1096E003BBB16 /* DCKnowledgeNavController.m in Sources */,
+				4BD4EB441FE00F6D0018DC2B /* DCDBMainTableViewController.m in Sources */,
 				4B1DE0881FA2ED410067B8DA /* DCMainLibViewController.m in Sources */,
 				4B1DE0951FA303C40067B8DA /* DCMapBaiduViewController.m in Sources */,
 			);
@@ -771,6 +915,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GR53Q3L929;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/DemoCollectionPrefix.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -785,6 +931,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GR53Q3L929;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DemoCollection/DemoCollectionPrefix.pch";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

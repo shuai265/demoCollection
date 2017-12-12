@@ -6,6 +6,12 @@
 //  Copyright © 2017年 liu. All rights reserved.
 //
 
+//  self.listArr 格式
+//      @[@{@"itemTitle":@"地图",
+//          @"class":DCMapViewController.class
+//      }];
+
+
 #import "DCBaseViewController.h"
 
 @interface DCBaseViewController ()<UITableViewDataSource,UITableViewDelegate>
