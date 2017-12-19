@@ -12,11 +12,11 @@
 
 - (void)MRCMethod {
     NSArray *arr = [[NSArray alloc] initWithObjects:@"string", nil];
-    NSLog(@"arr retainCount = %lu",(unsigned long)arr.retainCount);
+    DLog(@"arr retainCount = %lu",(unsigned long)arr.retainCount);
     [arr retain];
-    NSLog(@"arr retainCount = %lu",(unsigned long)arr.retainCount);
+    DLog(@"arr retainCount = %lu",(unsigned long)arr.retainCount);
     [arr release];
-    NSLog(@"arr retainCount = %lu",(unsigned long)arr.retainCount);
+    DLog(@"arr retainCount = %lu",(unsigned long)arr.retainCount);
     [arr release];
 }
 

@@ -8,6 +8,7 @@
 
 #import "DCDBMainTableViewController.h"
 #import "DCDBSQLiteViewController.h"
+#import "DCCoreDataViewController.h"
 
 @interface DCDBMainTableViewController ()
 
@@ -20,6 +21,9 @@
     
     self.listArr = @[@{@"itemTitle":@"SQLite",
                        @"class":DCDBSQLiteViewController.class
+                       },
+                     @{@"itemTitle":@"SQLite",
+                       @"class":DCCoreDataViewController.class
                        }];
 }
 

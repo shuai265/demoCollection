@@ -7,7 +7,9 @@
 //
 
 #import "DCKnowledgeViewController.h"
+#import "DCKnowledgeSuperSelfViewController.h"
 #import "DCKnowledgeARCMRCViewController.h"
+#import "DCKnowledgeCopyTableViewController.h"
 
 @interface DCKnowledgeViewController ()
 //@property (nonatomic,copy) NSArray *list;
@@ -20,6 +22,10 @@
     self.navigationItem.title = @"知识点";
     
     self.listArr = @[
+                  @{@"itemTitle":@"Super & Self",
+                    @"class":DCKnowledgeSuperSelfViewController.class},
+                  @{@"itemTitle":@"Copy",
+                    @"class":DCKnowledgeCopyTableViewController.class},
                   @{@"itemTitle":@"ARC & MRC",
                     @"class":DCKnowledgeARCMRCViewController.class},
                   @{@"itemTitle":@"单例",

@@ -23,6 +23,23 @@
 		4B1DE0A51FA31C4C0067B8DA /* DCMainServiceNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DE0A41FA31C4C0067B8DA /* DCMainServiceNavController.m */; };
 		4B1DE0A81FA31CB90067B8DA /* DCBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DE0A71FA31CB90067B8DA /* DCBaseNavViewController.m */; };
 		4B1DE0AB1FA31D640067B8DA /* DCMainServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DE0AA1FA31D640067B8DA /* DCMainServiceController.m */; };
+		4B3AB7051FE21BB300D22AF8 /* CCDbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB7041FE21BB300D22AF8 /* CCDbManager.m */; };
+		4B3AB70B1FE2477800D22AF8 /* DCDataSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB70A1FE2477800D22AF8 /* DCDataSaveViewController.m */; };
+		4B3AB70E1FE247EF00D22AF8 /* DCUserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB70D1FE247EF00D22AF8 /* DCUserDefaultsViewController.m */; };
+		4B3AB7111FE24A1E00D22AF8 /* CCDatabaseCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB7101FE24A1E00D22AF8 /* CCDatabaseCreator.m */; };
+		4B3AB7141FE24A3B00D22AF8 /* CCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB7131FE24A3B00D22AF8 /* CCUser.m */; };
+		4B3AB7171FE251EE00D22AF8 /* CCStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB7161FE251EE00D22AF8 /* CCStatus.m */; };
+		4B3AB71A1FE25BC500D22AF8 /* CCUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB7191FE25BC500D22AF8 /* CCUserService.m */; };
+		4B3AB71D1FE26D8B00D22AF8 /* CCStatusService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB71C1FE26D8B00D22AF8 /* CCStatusService.m */; };
+		4B3AB7231FE2DD1500D22AF8 /* CCStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB7211FE2DD1500D22AF8 /* CCStatusTableViewCell.m */; };
+		4B3AB7241FE2DD1500D22AF8 /* CCStatusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3AB7221FE2DD1500D22AF8 /* CCStatusTableViewCell.xib */; };
+		4B3AB72E1FE3A4B000D22AF8 /* binger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B3AB72D1FE3A4AF00D22AF8 /* binger.jpg */; };
+		4B3AB7301FE3A50A00D22AF8 /* mbtype.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3AB72F1FE3A50A00D22AF8 /* mbtype.png */; };
+		4B3AB7351FE3C5B400D22AF8 /* DCParseXML_JSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB7341FE3C5B400D22AF8 /* DCParseXML_JSONViewController.m */; };
+		4B3AB7381FE3C6F200D22AF8 /* DCParseJSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB7371FE3C6F200D22AF8 /* DCParseJSONViewController.m */; };
+		4B3AB73B1FE3C75D00D22AF8 /* DCParseXMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AB73A1FE3C75D00D22AF8 /* DCParseXMLViewController.m */; };
+		4B3AB73E1FE3D08A00D22AF8 /* DCParseJSONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3AB73D1FE3D08900D22AF8 /* DCParseJSONViewController.xib */; };
+		4B3AB7401FE3D74A00D22AF8 /* DCParseXMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3AB73F1FE3D74A00D22AF8 /* DCParseXMLViewController.xib */; };
 		4B4AE35D1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE35B1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m */; };
 		4B4AE35E1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4AE35C1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib */; };
 		4B4AE3611FD0E86D003BBB16 /* DCARCObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AE3601FD0E86D003BBB16 /* DCARCObj.m */; };
@@ -40,10 +57,31 @@
 		4B58EBF31FD2595B008D6759 /* DCCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58EBF21FD2595B008D6759 /* DCCocoaViewController.m */; };
 		4B58EBF61FD25AB9008D6759 /* DCWebListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58EBF51FD25AB9008D6759 /* DCWebListViewController.m */; };
 		4B58EBF91FD25B86008D6759 /* DCWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58EBF81FD25B86008D6759 /* DCWKWebViewController.m */; };
+		4BC163F91FE769D30037FB33 /* DCKnowledgeCopyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC163F71FE769D30037FB33 /* DCKnowledgeCopyTableViewController.m */; };
+		4BC163FA1FE769D30037FB33 /* DCKnowledgeCopyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BC163F81FE769D30037FB33 /* DCKnowledgeCopyTableViewController.xib */; };
+		4BC164021FE7743A0037FB33 /* DCKnowledgeSuperSelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164001FE7743A0037FB33 /* DCKnowledgeSuperSelfViewController.m */; };
+		4BC164031FE7743A0037FB33 /* DCKnowledgeInheritViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BC164011FE7743A0037FB33 /* DCKnowledgeInheritViewController.xib */; };
+		4BC164061FE7744D0037FB33 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164051FE7744D0037FB33 /* Father.m */; };
+		4BC164091FE774620037FB33 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164081FE774620037FB33 /* Children.m */; };
+		4BC1640D1FE77CC50037FB33 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1640C1FE77CC50037FB33 /* Person.m */; };
+		4BC164101FE77EF40037FB33 /* PersonChen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1640F1FE77EF40037FB33 /* PersonChen.m */; };
+		4BC164141FE7A2110037FB33 /* DCNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164131FE7A2110037FB33 /* DCNetworkViewController.m */; };
+		4BC164171FE7A29C0037FB33 /* DCNetworkDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164161FE7A29C0037FB33 /* DCNetworkDelegateViewController.m */; };
+		4BC1641A1FE7B8400037FB33 /* DCNetworkSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164191FE7B8400037FB33 /* DCNetworkSimpleViewController.m */; };
+		4BC1641E1FE8C2880037FB33 /* DCCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1641D1FE8C2880037FB33 /* DCCoreDataViewController.m */; };
+		4BC164211FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1641F1FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld */; };
+		4BC164301FE8CBCB0037FB33 /* CDUser+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1642A1FE8CBCB0037FB33 /* CDUser+CoreDataClass.m */; };
+		4BC164311FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1642B1FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m */; };
+		4BC164321FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1642D1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m */; };
+		4BC164331FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1642F1FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m */; };
+		4BC164371FE8DB990037FB33 /* DCMFDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164361FE8DB980037FB33 /* DCMFDBManager.m */; };
+		4BC1643A1FE8E2260037FB33 /* DCFMDBQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164391FE8E2260037FB33 /* DCFMDBQueueManager.m */; };
+		4BC537D51FE4FDE600654B6E /* PersonXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4BC537D41FE4FDE600654B6E /* PersonXML.xml */; };
+		4BC537D81FE4FEA900654B6E /* PersonObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC537D71FE4FEA900654B6E /* PersonObj.m */; };
+		4BC537DB1FE5011C00654B6E /* XMLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC537DA1FE5011C00654B6E /* XMLUtil.m */; };
 		4BD4EB401FE00DE20018DC2B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD4EB3F1FE00DE20018DC2B /* libsqlite3.0.tbd */; };
 		4BD4EB441FE00F6D0018DC2B /* DCDBMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4EB431FE00F6D0018DC2B /* DCDBMainTableViewController.m */; };
 		4BD4EB481FE0105E0018DC2B /* DCDBSQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4EB461FE0105E0018DC2B /* DCDBSQLiteViewController.m */; };
-		4BD4EB491FE0105E0018DC2B /* DCDBSQLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BD4EB471FE0105E0018DC2B /* DCDBSQLiteViewController.xib */; };
 		512A6F3819B216FC21C79FB3 /* libPods-DemoCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DD4A3396001682871EEE1A /* libPods-DemoCollection.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +116,41 @@
 		4B1DE0A71FA31CB90067B8DA /* DCBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseNavViewController.m; sourceTree = "<group>"; };
 		4B1DE0A91FA31D640067B8DA /* DCMainServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMainServiceController.h; sourceTree = "<group>"; };
 		4B1DE0AA1FA31D640067B8DA /* DCMainServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMainServiceController.m; sourceTree = "<group>"; };
+		4B3AB7031FE21BB300D22AF8 /* CCDbManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCDbManager.h; sourceTree = "<group>"; };
+		4B3AB7041FE21BB300D22AF8 /* CCDbManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCDbManager.m; sourceTree = "<group>"; };
+		4B3AB7061FE21F8E00D22AF8 /* CCSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSingleton.h; sourceTree = "<group>"; };
+		4B3AB7071FE2247100D22AF8 /* CCAppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppConfig.h; sourceTree = "<group>"; };
+		4B3AB7091FE2477800D22AF8 /* DCDataSaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDataSaveViewController.h; sourceTree = "<group>"; };
+		4B3AB70A1FE2477800D22AF8 /* DCDataSaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDataSaveViewController.m; sourceTree = "<group>"; };
+		4B3AB70C1FE247EF00D22AF8 /* DCUserDefaultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCUserDefaultsViewController.h; sourceTree = "<group>"; };
+		4B3AB70D1FE247EF00D22AF8 /* DCUserDefaultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCUserDefaultsViewController.m; sourceTree = "<group>"; };
+		4B3AB70F1FE24A1E00D22AF8 /* CCDatabaseCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCDatabaseCreator.h; sourceTree = "<group>"; };
+		4B3AB7101FE24A1E00D22AF8 /* CCDatabaseCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCDatabaseCreator.m; sourceTree = "<group>"; };
+		4B3AB7121FE24A3B00D22AF8 /* CCUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUser.h; sourceTree = "<group>"; };
+		4B3AB7131FE24A3B00D22AF8 /* CCUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCUser.m; sourceTree = "<group>"; };
+		4B3AB7151FE251EE00D22AF8 /* CCStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCStatus.h; sourceTree = "<group>"; };
+		4B3AB7161FE251EE00D22AF8 /* CCStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCStatus.m; sourceTree = "<group>"; };
+		4B3AB7181FE25BC500D22AF8 /* CCUserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUserService.h; sourceTree = "<group>"; };
+		4B3AB7191FE25BC500D22AF8 /* CCUserService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCUserService.m; sourceTree = "<group>"; };
+		4B3AB71B1FE26D8B00D22AF8 /* CCStatusService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCStatusService.h; sourceTree = "<group>"; };
+		4B3AB71C1FE26D8B00D22AF8 /* CCStatusService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCStatusService.m; sourceTree = "<group>"; };
+		4B3AB7201FE2DD1500D22AF8 /* CCStatusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCStatusTableViewCell.h; sourceTree = "<group>"; };
+		4B3AB7211FE2DD1500D22AF8 /* CCStatusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCStatusTableViewCell.m; sourceTree = "<group>"; };
+		4B3AB7221FE2DD1500D22AF8 /* CCStatusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCStatusTableViewCell.xib; sourceTree = "<group>"; };
+		4B3AB7281FE2DF0E00D22AF8 /* DataBase.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DataBase.md; sourceTree = "<group>"; };
+		4B3AB7291FE2DF5300D22AF8 /* NetworkStatus.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NetworkStatus.md; sourceTree = "<group>"; };
+		4B3AB72B1FE2DF8800D22AF8 /* KTVHTTPCache.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = KTVHTTPCache.md; sourceTree = "<group>"; };
+		4B3AB72D1FE3A4AF00D22AF8 /* binger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = binger.jpg; sourceTree = "<group>"; };
+		4B3AB72F1FE3A50A00D22AF8 /* mbtype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mbtype.png; sourceTree = "<group>"; };
+		4B3AB7331FE3C5B400D22AF8 /* DCParseXML_JSONViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCParseXML_JSONViewController.h; sourceTree = "<group>"; };
+		4B3AB7341FE3C5B400D22AF8 /* DCParseXML_JSONViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCParseXML_JSONViewController.m; sourceTree = "<group>"; };
+		4B3AB7361FE3C6F200D22AF8 /* DCParseJSONViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCParseJSONViewController.h; sourceTree = "<group>"; };
+		4B3AB7371FE3C6F200D22AF8 /* DCParseJSONViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCParseJSONViewController.m; sourceTree = "<group>"; };
+		4B3AB7391FE3C75D00D22AF8 /* DCParseXMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCParseXMLViewController.h; sourceTree = "<group>"; };
+		4B3AB73A1FE3C75D00D22AF8 /* DCParseXMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCParseXMLViewController.m; sourceTree = "<group>"; };
+		4B3AB73C1FE3C7BC00D22AF8 /* ParseXML&JSON.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ParseXML&JSON.md"; sourceTree = "<group>"; };
+		4B3AB73D1FE3D08900D22AF8 /* DCParseJSONViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCParseJSONViewController.xib; sourceTree = "<group>"; };
+		4B3AB73F1FE3D74A00D22AF8 /* DCParseXMLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCParseXMLViewController.xib; sourceTree = "<group>"; };
 		4B4AE35A1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKnowledgeARCMRCViewController.h; sourceTree = "<group>"; };
 		4B4AE35B1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKnowledgeARCMRCViewController.m; sourceTree = "<group>"; };
 		4B4AE35C1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCKnowledgeARCMRCViewController.xib; sourceTree = "<group>"; };
@@ -116,12 +189,52 @@
 		4B650BBF1FC65CB9007A6699 /* KeysSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeysSecrets.h; sourceTree = "<group>"; };
 		4B650BC01FC65CE7007A6699 /* Demo_KeysSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_KeysSecrets.h; sourceTree = "<group>"; };
 		4B9207F71FC511C200C3B6AC /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		4BC163F61FE769D30037FB33 /* DCKnowledgeCopyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKnowledgeCopyTableViewController.h; sourceTree = "<group>"; };
+		4BC163F71FE769D30037FB33 /* DCKnowledgeCopyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKnowledgeCopyTableViewController.m; sourceTree = "<group>"; };
+		4BC163F81FE769D30037FB33 /* DCKnowledgeCopyTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCKnowledgeCopyTableViewController.xib; sourceTree = "<group>"; };
+		4BC163FF1FE7743A0037FB33 /* DCKnowledgeSuperSelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCKnowledgeSuperSelfViewController.h; sourceTree = "<group>"; };
+		4BC164001FE7743A0037FB33 /* DCKnowledgeSuperSelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKnowledgeSuperSelfViewController.m; sourceTree = "<group>"; };
+		4BC164011FE7743A0037FB33 /* DCKnowledgeInheritViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCKnowledgeInheritViewController.xib; sourceTree = "<group>"; };
+		4BC164041FE7744D0037FB33 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		4BC164051FE7744D0037FB33 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		4BC164071FE774620037FB33 /* Children.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		4BC164081FE774620037FB33 /* Children.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
+		4BC1640A1FE77B050037FB33 /* self&super.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "self&super.md"; sourceTree = "<group>"; };
+		4BC1640B1FE77CC50037FB33 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4BC1640C1FE77CC50037FB33 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		4BC1640E1FE77EF40037FB33 /* PersonChen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonChen.h; sourceTree = "<group>"; };
+		4BC1640F1FE77EF40037FB33 /* PersonChen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonChen.m; sourceTree = "<group>"; };
+		4BC164121FE7A2110037FB33 /* DCNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNetworkViewController.h; sourceTree = "<group>"; };
+		4BC164131FE7A2110037FB33 /* DCNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNetworkViewController.m; sourceTree = "<group>"; };
+		4BC164151FE7A29C0037FB33 /* DCNetworkDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNetworkDelegateViewController.h; sourceTree = "<group>"; };
+		4BC164161FE7A29C0037FB33 /* DCNetworkDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNetworkDelegateViewController.m; sourceTree = "<group>"; };
+		4BC164181FE7B8400037FB33 /* DCNetworkSimpleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNetworkSimpleViewController.h; sourceTree = "<group>"; };
+		4BC164191FE7B8400037FB33 /* DCNetworkSimpleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNetworkSimpleViewController.m; sourceTree = "<group>"; };
+		4BC1641C1FE8C2880037FB33 /* DCCoreDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCCoreDataViewController.h; sourceTree = "<group>"; };
+		4BC1641D1FE8C2880037FB33 /* DCCoreDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCCoreDataViewController.m; sourceTree = "<group>"; };
+		4BC164201FE8C2BD0037FB33 /* DCCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DCCoreData.xcdatamodel; sourceTree = "<group>"; };
+		4BC164281FE8CBCA0037FB33 /* CDStatus+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDStatus+CoreDataClass.h"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDStatus+CoreDataClass.h"; sourceTree = "<absolute>"; };
+		4BC164291FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDStatus+CoreDataProperties.h"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDStatus+CoreDataProperties.h"; sourceTree = "<absolute>"; };
+		4BC1642A1FE8CBCB0037FB33 /* CDUser+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDUser+CoreDataClass.m"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDUser+CoreDataClass.m"; sourceTree = "<absolute>"; };
+		4BC1642B1FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDStatus+CoreDataClass.m"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDStatus+CoreDataClass.m"; sourceTree = "<absolute>"; };
+		4BC1642C1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDUser+CoreDataProperties.h"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDUser+CoreDataProperties.h"; sourceTree = "<absolute>"; };
+		4BC1642D1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDUser+CoreDataProperties.m"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDUser+CoreDataProperties.m"; sourceTree = "<absolute>"; };
+		4BC1642E1FE8CBCB0037FB33 /* CDUser+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDUser+CoreDataClass.h"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDUser+CoreDataClass.h"; sourceTree = "<absolute>"; };
+		4BC1642F1FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDStatus+CoreDataProperties.m"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDStatus+CoreDataProperties.m"; sourceTree = "<absolute>"; };
+		4BC164351FE8DB980037FB33 /* DCMFDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMFDBManager.h; sourceTree = "<group>"; };
+		4BC164361FE8DB980037FB33 /* DCMFDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMFDBManager.m; sourceTree = "<group>"; };
+		4BC164381FE8E2260037FB33 /* DCFMDBQueueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFMDBQueueManager.h; sourceTree = "<group>"; };
+		4BC164391FE8E2260037FB33 /* DCFMDBQueueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFMDBQueueManager.m; sourceTree = "<group>"; };
+		4BC537D41FE4FDE600654B6E /* PersonXML.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PersonXML.xml; sourceTree = "<group>"; };
+		4BC537D61FE4FEA900654B6E /* PersonObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonObj.h; sourceTree = "<group>"; };
+		4BC537D71FE4FEA900654B6E /* PersonObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonObj.m; sourceTree = "<group>"; };
+		4BC537D91FE5011C00654B6E /* XMLUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLUtil.h; sourceTree = "<group>"; };
+		4BC537DA1FE5011C00654B6E /* XMLUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLUtil.m; sourceTree = "<group>"; };
 		4BD4EB3F1FE00DE20018DC2B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		4BD4EB421FE00F6D0018DC2B /* DCDBMainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDBMainTableViewController.h; sourceTree = "<group>"; };
 		4BD4EB431FE00F6D0018DC2B /* DCDBMainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDBMainTableViewController.m; sourceTree = "<group>"; };
 		4BD4EB451FE0105E0018DC2B /* DCDBSQLiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDBSQLiteViewController.h; sourceTree = "<group>"; };
 		4BD4EB461FE0105E0018DC2B /* DCDBSQLiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDBSQLiteViewController.m; sourceTree = "<group>"; };
-		4BD4EB471FE0105E0018DC2B /* DCDBSQLiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DCDBSQLiteViewController.xib; sourceTree = "<group>"; };
 		67DD4A3396001682871EEE1A /* libPods-DemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7309ABDA2E8787EE926DC9F /* Pods-DemoCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection.debug.xcconfig"; sourceTree = "<group>"; };
 		EC311D67C4456FC5862E61A1 /* Pods-DemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +283,7 @@
 		4B1DE0531FA2BD4A0067B8DA /* DemoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				4B3AB7411FE3DF0700D22AF8 /* Other */,
 				4B1DE06B1FA2E3C10067B8DA /* AppDelegate */,
 				4B1DE0731FA2E8120067B8DA /* Main Tab Controller（入口） */,
 				4B1DE0A21FA31A780067B8DA /* BaseVC */,
@@ -211,6 +325,7 @@
 		4B1DE06C1FA2E3CF0067B8DA /* Defines */ = {
 			isa = PBXGroup;
 			children = (
+				4B3AB7071FE2247100D22AF8 /* CCAppConfig.h */,
 				4B9207F71FC511C200C3B6AC /* Defines.h */,
 				4B650BBF1FC65CB9007A6699 /* KeysSecrets.h */,
 				4B650BC01FC65CE7007A6699 /* Demo_KeysSecrets.h */,
@@ -221,6 +336,7 @@
 		4B1DE06D1FA2E4010067B8DA /* Third party library（第三方类库） */ = {
 			isa = PBXGroup;
 			children = (
+				4B3AB72A1FE2DF7B00D22AF8 /* KTVHTTPCache */,
 				4B1DE07E1FA2EC3B0067B8DA /* MainLibNav */,
 				4B1DE07F1FA2EC500067B8DA /* MainLibVC */,
 			);
@@ -297,11 +413,15 @@
 			isa = PBXGroup;
 			children = (
 				4B4AE3921FD10A33003BBB16 /* MainCommonly */,
+				4BC164111FE7A1270037FB33 /* Network(网络开发) */,
+				4B3AB7321FE3C45200D22AF8 /* ParseXML&JSON(数据解析) */,
 				4B55DE3E1FD7D9A200677AE1 /* LazyTable(懒加载图片) */,
 				4B4AE3A21FD1403E003BBB16 /* LaunchPage(启动页) */,
 				4B4AE3A11FD1402B003BBB16 /* ADPage(广告页) */,
 				4B4AE3A31FD14072003BBB16 /* Banner(轮播图) */,
 				4BD4EB411FE00DF70018DC2B /* DataBase(数据库) */,
+				4B3AB7081FE2472A00D22AF8 /* DataSave(数据存储) */,
+				4B3AB71E1FE27C2700D22AF8 /* NetworkStatus(网络状态) */,
 				4B4AE3AC1FD14529003BBB16 /* Today Extension */,
 				4B4AE3AA1FD144CE003BBB16 /* URLScheme */,
 				4B4AE3AB1FD1451E003BBB16 /* Today */,
@@ -367,10 +487,122 @@
 			name = BaseVC;
 			sourceTree = "<group>";
 		};
+		4B3AB7081FE2472A00D22AF8 /* DataSave(数据存储) */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB7091FE2477800D22AF8 /* DCDataSaveViewController.h */,
+				4B3AB70A1FE2477800D22AF8 /* DCDataSaveViewController.m */,
+				4B3AB70C1FE247EF00D22AF8 /* DCUserDefaultsViewController.h */,
+				4B3AB70D1FE247EF00D22AF8 /* DCUserDefaultsViewController.m */,
+			);
+			name = "DataSave(数据存储)";
+			sourceTree = "<group>";
+		};
+		4B3AB71E1FE27C2700D22AF8 /* NetworkStatus(网络状态) */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB7291FE2DF5300D22AF8 /* NetworkStatus.md */,
+			);
+			name = "NetworkStatus(网络状态)";
+			sourceTree = "<group>";
+		};
+		4B3AB71F1FE2D3F000D22AF8 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB7311FE3ABD700D22AF8 /* View */,
+				4B3AB72C1FE3A49D00D22AF8 /* Resource */,
+				4B3AB7261FE2DD3A00D22AF8 /* Modle */,
+				4B3AB7251FE2DD1E00D22AF8 /* Controller */,
+				4B3AB7271FE2DD4C00D22AF8 /* Manager */,
+			);
+			name = SQLite;
+			sourceTree = "<group>";
+		};
+		4B3AB7251FE2DD1E00D22AF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BD4EB451FE0105E0018DC2B /* DCDBSQLiteViewController.h */,
+				4BD4EB461FE0105E0018DC2B /* DCDBSQLiteViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4B3AB7261FE2DD3A00D22AF8 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB7121FE24A3B00D22AF8 /* CCUser.h */,
+				4B3AB7131FE24A3B00D22AF8 /* CCUser.m */,
+				4B3AB7151FE251EE00D22AF8 /* CCStatus.h */,
+				4B3AB7161FE251EE00D22AF8 /* CCStatus.m */,
+			);
+			name = Modle;
+			sourceTree = "<group>";
+		};
+		4B3AB7271FE2DD4C00D22AF8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB70F1FE24A1E00D22AF8 /* CCDatabaseCreator.h */,
+				4B3AB7101FE24A1E00D22AF8 /* CCDatabaseCreator.m */,
+				4B3AB7181FE25BC500D22AF8 /* CCUserService.h */,
+				4B3AB7191FE25BC500D22AF8 /* CCUserService.m */,
+				4B3AB71B1FE26D8B00D22AF8 /* CCStatusService.h */,
+				4B3AB71C1FE26D8B00D22AF8 /* CCStatusService.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		4B3AB72A1FE2DF7B00D22AF8 /* KTVHTTPCache */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB72B1FE2DF8800D22AF8 /* KTVHTTPCache.md */,
+			);
+			name = KTVHTTPCache;
+			sourceTree = "<group>";
+		};
+		4B3AB72C1FE3A49D00D22AF8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB72D1FE3A4AF00D22AF8 /* binger.jpg */,
+				4B3AB72F1FE3A50A00D22AF8 /* mbtype.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		4B3AB7311FE3ABD700D22AF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB7201FE2DD1500D22AF8 /* CCStatusTableViewCell.h */,
+				4B3AB7211FE2DD1500D22AF8 /* CCStatusTableViewCell.m */,
+				4B3AB7221FE2DD1500D22AF8 /* CCStatusTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4B3AB7321FE3C45200D22AF8 /* ParseXML&JSON(数据解析) */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB7331FE3C5B400D22AF8 /* DCParseXML_JSONViewController.h */,
+				4B3AB7341FE3C5B400D22AF8 /* DCParseXML_JSONViewController.m */,
+				4B3AB73C1FE3C7BC00D22AF8 /* ParseXML&JSON.md */,
+				4BC537D11FE4FDA700654B6E /* JSON */,
+				4BC537D01FE4FD9900654B6E /* XML */,
+			);
+			name = "ParseXML&JSON(数据解析)";
+			sourceTree = "<group>";
+		};
+		4B3AB7411FE3DF0700D22AF8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		4B4AE3581FD0E7DF003BBB16 /* Knowledge(知识点) */ = {
 			isa = PBXGroup;
 			children = (
 				4B4AE38B1FD10932003BBB16 /* MainKnowledge */,
+				4BC163FE1FE7740C0037FB33 /* Super&Self */,
+				4BC163F51FE7695B0037FB33 /* Copy */,
 				4B4AE3591FD0E81A003BBB16 /* ARC&MRC */,
 				4B4AE3991FD13997003BBB16 /* Singleton(单例) */,
 				4B4AE39D1FD13A2C003BBB16 /* Multithreading(多线程) */,
@@ -432,7 +664,7 @@
 		4B4AE39D1FD13A2C003BBB16 /* Multithreading(多线程) */ = {
 			isa = PBXGroup;
 			children = (
-				4B4AE39F1FD13B68003BBB16 /* GDC NSThread */,
+				4B4AE39F1FD13B68003BBB16 /* NSThread */,
 			);
 			name = "Multithreading(多线程)";
 			sourceTree = "<group>";
@@ -444,11 +676,11 @@
 			name = "DataPersistence(数据持久化)";
 			sourceTree = "<group>";
 		};
-		4B4AE39F1FD13B68003BBB16 /* GDC NSThread */ = {
+		4B4AE39F1FD13B68003BBB16 /* NSThread */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "GDC NSThread";
+			name = NSThread;
 			sourceTree = "<group>";
 		};
 		4B4AE3A01FD14002003BBB16 /* WebView&H5 */ = {
@@ -496,6 +728,9 @@
 		4B4AE3A61FD14149003BBB16 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				4B3AB7031FE21BB300D22AF8 /* CCDbManager.h */,
+				4B3AB7041FE21BB300D22AF8 /* CCDbManager.m */,
+				4B3AB7061FE21F8E00D22AF8 /* CCSingleton.h */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -619,14 +854,111 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4BC163F51FE7695B0037FB33 /* Copy */ = {
+			isa = PBXGroup;
+			children = (
+				4BC163F61FE769D30037FB33 /* DCKnowledgeCopyTableViewController.h */,
+				4BC163F71FE769D30037FB33 /* DCKnowledgeCopyTableViewController.m */,
+				4BC163F81FE769D30037FB33 /* DCKnowledgeCopyTableViewController.xib */,
+			);
+			name = Copy;
+			sourceTree = "<group>";
+		};
+		4BC163FE1FE7740C0037FB33 /* Super&Self */ = {
+			isa = PBXGroup;
+			children = (
+				4BC163FF1FE7743A0037FB33 /* DCKnowledgeSuperSelfViewController.h */,
+				4BC164001FE7743A0037FB33 /* DCKnowledgeSuperSelfViewController.m */,
+				4BC164011FE7743A0037FB33 /* DCKnowledgeInheritViewController.xib */,
+				4BC164041FE7744D0037FB33 /* Father.h */,
+				4BC164051FE7744D0037FB33 /* Father.m */,
+				4BC164071FE774620037FB33 /* Children.h */,
+				4BC164081FE774620037FB33 /* Children.m */,
+				4BC1640A1FE77B050037FB33 /* self&super.md */,
+				4BC1640B1FE77CC50037FB33 /* Person.h */,
+				4BC1640C1FE77CC50037FB33 /* Person.m */,
+				4BC1640E1FE77EF40037FB33 /* PersonChen.h */,
+				4BC1640F1FE77EF40037FB33 /* PersonChen.m */,
+			);
+			name = "Super&Self";
+			sourceTree = "<group>";
+		};
+		4BC164111FE7A1270037FB33 /* Network(网络开发) */ = {
+			isa = PBXGroup;
+			children = (
+				4BC164121FE7A2110037FB33 /* DCNetworkViewController.h */,
+				4BC164131FE7A2110037FB33 /* DCNetworkViewController.m */,
+				4BC164151FE7A29C0037FB33 /* DCNetworkDelegateViewController.h */,
+				4BC164161FE7A29C0037FB33 /* DCNetworkDelegateViewController.m */,
+				4BC164181FE7B8400037FB33 /* DCNetworkSimpleViewController.h */,
+				4BC164191FE7B8400037FB33 /* DCNetworkSimpleViewController.m */,
+			);
+			name = "Network(网络开发)";
+			sourceTree = "<group>";
+		};
+		4BC1641B1FE8C2580037FB33 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				4BC1641C1FE8C2880037FB33 /* DCCoreDataViewController.h */,
+				4BC1641D1FE8C2880037FB33 /* DCCoreDataViewController.m */,
+				4BC1641F1FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld */,
+				4BC1642E1FE8CBCB0037FB33 /* CDUser+CoreDataClass.h */,
+				4BC1642A1FE8CBCB0037FB33 /* CDUser+CoreDataClass.m */,
+				4BC1642C1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.h */,
+				4BC1642D1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m */,
+				4BC164291FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.h */,
+				4BC164281FE8CBCA0037FB33 /* CDStatus+CoreDataClass.h */,
+				4BC1642B1FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m */,
+				4BC1642F1FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		4BC164341FE8DB6A0037FB33 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				4BC164351FE8DB980037FB33 /* DCMFDBManager.h */,
+				4BC164361FE8DB980037FB33 /* DCMFDBManager.m */,
+				4BC164381FE8E2260037FB33 /* DCFMDBQueueManager.h */,
+				4BC164391FE8E2260037FB33 /* DCFMDBQueueManager.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		4BC537D01FE4FD9900654B6E /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB7391FE3C75D00D22AF8 /* DCParseXMLViewController.h */,
+				4B3AB73A1FE3C75D00D22AF8 /* DCParseXMLViewController.m */,
+				4B3AB73F1FE3D74A00D22AF8 /* DCParseXMLViewController.xib */,
+				4BC537D41FE4FDE600654B6E /* PersonXML.xml */,
+				4BC537D61FE4FEA900654B6E /* PersonObj.h */,
+				4BC537D71FE4FEA900654B6E /* PersonObj.m */,
+				4BC537D91FE5011C00654B6E /* XMLUtil.h */,
+				4BC537DA1FE5011C00654B6E /* XMLUtil.m */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		4BC537D11FE4FDA700654B6E /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4B3AB7361FE3C6F200D22AF8 /* DCParseJSONViewController.h */,
+				4B3AB7371FE3C6F200D22AF8 /* DCParseJSONViewController.m */,
+				4B3AB73D1FE3D08900D22AF8 /* DCParseJSONViewController.xib */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
 		4BD4EB411FE00DF70018DC2B /* DataBase(数据库) */ = {
 			isa = PBXGroup;
 			children = (
+				4B3AB7281FE2DF0E00D22AF8 /* DataBase.md */,
 				4BD4EB421FE00F6D0018DC2B /* DCDBMainTableViewController.h */,
 				4BD4EB431FE00F6D0018DC2B /* DCDBMainTableViewController.m */,
-				4BD4EB451FE0105E0018DC2B /* DCDBSQLiteViewController.h */,
-				4BD4EB461FE0105E0018DC2B /* DCDBSQLiteViewController.m */,
-				4BD4EB471FE0105E0018DC2B /* DCDBSQLiteViewController.xib */,
+				4B3AB71F1FE2D3F000D22AF8 /* SQLite */,
+				4BC1641B1FE8C2580037FB33 /* Core Data */,
+				4BC164341FE8DB6A0037FB33 /* FMDB */,
 			);
 			name = "DataBase(数据库)";
 			sourceTree = "<group>";
@@ -695,9 +1027,16 @@
 			files = (
 				4B1DE0641FA2BD4A0067B8DA /* LaunchScreen.storyboard in Resources */,
 				4B1DE0611FA2BD4A0067B8DA /* Assets.xcassets in Resources */,
+				4BC537D51FE4FDE600654B6E /* PersonXML.xml in Resources */,
 				4B4AE35E1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.xib in Resources */,
-				4BD4EB491FE0105E0018DC2B /* DCDBSQLiteViewController.xib in Resources */,
+				4B3AB7401FE3D74A00D22AF8 /* DCParseXMLViewController.xib in Resources */,
 				4B1DE05F1FA2BD4A0067B8DA /* Main.storyboard in Resources */,
+				4B3AB73E1FE3D08A00D22AF8 /* DCParseJSONViewController.xib in Resources */,
+				4BC163FA1FE769D30037FB33 /* DCKnowledgeCopyTableViewController.xib in Resources */,
+				4B3AB7241FE2DD1500D22AF8 /* CCStatusTableViewCell.xib in Resources */,
+				4B3AB7301FE3A50A00D22AF8 /* mbtype.png in Resources */,
+				4BC164031FE7743A0037FB33 /* DCKnowledgeInheritViewController.xib in Resources */,
+				4B3AB72E1FE3A4B000D22AF8 /* binger.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,6 +1085,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection-resources.sh",
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -763,36 +1103,67 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC164331FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m in Sources */,
+				4BC1641E1FE8C2880037FB33 /* DCCoreDataViewController.m in Sources */,
+				4BC164141FE7A2110037FB33 /* DCNetworkViewController.m in Sources */,
 				4B1DE0821FA2ED020067B8DA /* DCMainLibNavController.m in Sources */,
 				4B1DE0981FA303D00067B8DA /* DCMapGaodeViewController.m in Sources */,
+				4B3AB7351FE3C5B400D22AF8 /* DCParseXML_JSONViewController.m in Sources */,
 				4B58EBF01FD25947008D6759 /* DCCocoaNavController.m in Sources */,
 				4B1DE0A81FA31CB90067B8DA /* DCBaseNavViewController.m in Sources */,
 				4B4AE3981FD10A87003BBB16 /* DCMainCommonlyNavController.m in Sources */,
 				4B1DE09E1FA31A2D0067B8DA /* DCBaseViewController.m in Sources */,
+				4BC164301FE8CBCB0037FB33 /* CDUser+CoreDataClass.m in Sources */,
 				4B1DE0A51FA31C4C0067B8DA /* DCMainServiceNavController.m in Sources */,
+				4B3AB7171FE251EE00D22AF8 /* CCStatus.m in Sources */,
 				4B1DE0591FA2BD4A0067B8DA /* AppDelegate.m in Sources */,
 				4B55DE411FD7D9FC00677AE1 /* DCLazyTableViewController.m in Sources */,
 				4BD4EB481FE0105E0018DC2B /* DCDBSQLiteViewController.m in Sources */,
+				4BC1640D1FE77CC50037FB33 /* Person.m in Sources */,
+				4BC164321FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m in Sources */,
+				4BC1641A1FE7B8400037FB33 /* DCNetworkSimpleViewController.m in Sources */,
 				4B4AE35D1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m in Sources */,
+				4BC164211FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld in Sources */,
+				4BC164061FE7744D0037FB33 /* Father.m in Sources */,
 				4B1DE0761FA2EB8B0067B8DA /* DCMainTabBarController.m in Sources */,
 				4B1DE09B1FA303DD0067B8DA /* DCMapTencentViewController.m in Sources */,
 				4B55DE4B1FD7DACB00677AE1 /* IconDownloader.m in Sources */,
+				4BC164091FE774620037FB33 /* Children.m in Sources */,
+				4BC537DB1FE5011C00654B6E /* XMLUtil.m in Sources */,
+				4B3AB7231FE2DD1500D22AF8 /* CCStatusTableViewCell.m in Sources */,
+				4B3AB70E1FE247EF00D22AF8 /* DCUserDefaultsViewController.m in Sources */,
+				4BC164021FE7743A0037FB33 /* DCKnowledgeSuperSelfViewController.m in Sources */,
+				4BC164171FE7A29C0037FB33 /* DCNetworkDelegateViewController.m in Sources */,
 				4B4AE3641FD0E879003BBB16 /* DCMRCObj.m in Sources */,
+				4B3AB7141FE24A3B00D22AF8 /* CCUser.m in Sources */,
+				4BC1643A1FE8E2260037FB33 /* DCFMDBQueueManager.m in Sources */,
+				4B3AB7051FE21BB300D22AF8 /* CCDbManager.m in Sources */,
 				4B58EBF61FD25AB9008D6759 /* DCWebListViewController.m in Sources */,
+				4B3AB70B1FE2477800D22AF8 /* DCDataSaveViewController.m in Sources */,
 				4B4AE3951FD10A65003BBB16 /* DCMainCommonViewController.m in Sources */,
 				4B4AE3911FD10985003BBB16 /* DCKnowledgeViewController.m in Sources */,
 				4B1DE0911FA2F1300067B8DA /* DCMapViewController.m in Sources */,
 				4B4AE3611FD0E86D003BBB16 /* DCARCObj.m in Sources */,
 				4B4AE39C1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m in Sources */,
+				4B3AB7381FE3C6F200D22AF8 /* DCParseJSONViewController.m in Sources */,
+				4BC164311FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m in Sources */,
 				4B55DE451FD7DA9800677AE1 /* ParseOperation.m in Sources */,
 				4B58EBF31FD2595B008D6759 /* DCCocoaViewController.m in Sources */,
 				4B58EBF91FD25B86008D6759 /* DCWKWebViewController.m in Sources */,
+				4BC537D81FE4FEA900654B6E /* PersonObj.m in Sources */,
 				4B55DE481FD7DAB400677AE1 /* AppRecord.m in Sources */,
 				4B1DE0AB1FA31D640067B8DA /* DCMainServiceController.m in Sources */,
 				4B1DE0561FA2BD4A0067B8DA /* main.m in Sources */,
+				4B3AB73B1FE3C75D00D22AF8 /* DCParseXMLViewController.m in Sources */,
 				4B4AE38E1FD1096E003BBB16 /* DCKnowledgeNavController.m in Sources */,
 				4BD4EB441FE00F6D0018DC2B /* DCDBMainTableViewController.m in Sources */,
+				4BC164371FE8DB990037FB33 /* DCMFDBManager.m in Sources */,
+				4B3AB71A1FE25BC500D22AF8 /* CCUserService.m in Sources */,
 				4B1DE0881FA2ED410067B8DA /* DCMainLibViewController.m in Sources */,
+				4B3AB7111FE24A1E00D22AF8 /* CCDatabaseCreator.m in Sources */,
+				4B3AB71D1FE26D8B00D22AF8 /* CCStatusService.m in Sources */,
+				4BC164101FE77EF40037FB33 /* PersonChen.m in Sources */,
+				4BC163F91FE769D30037FB33 /* DCKnowledgeCopyTableViewController.m in Sources */,
 				4B1DE0951FA303C40067B8DA /* DCMapBaiduViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -963,6 +1334,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BC1641F1FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BC164201FE8C2BD0037FB33 /* DCCoreData.xcdatamodel */,
+			);
+			currentVersion = 4BC164201FE8C2BD0037FB33 /* DCCoreData.xcdatamodel */;
+			path = DCCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4B1DE0491FA2BD4A0067B8DA /* Project object */;
 }

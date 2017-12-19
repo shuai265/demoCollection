@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Person>
+        <student>
+            <pid>1001</pid>
+            <name>张某</name>
+            <sex>男</sex>
+            <age>12</age>
+        </student>
+        
+        <student>
+            <pid>1002</pid>
+            <name>小米</name>
+            <sex>男</sex>
+            <age>24</age>
+        </student>
+        
+        <student>
+            <pid>1003</pid>
+            <name>丽丽</name>
+            <sex>女</sex>
+            <age>19</age>
+        </student>
+</Person>

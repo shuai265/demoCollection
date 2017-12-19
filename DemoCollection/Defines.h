@@ -26,3 +26,12 @@
 
 
 #endif /* Defines_h */
+
+
+//---------------- 颜色 -------------------------
+#define CCColor(r,g,b) [UIColor colorWithHue:r/255.0 saturation:g/255.0 brightness:b/255.0 alpha:1] //颜色宏定义
+
+
+//------------- 屏幕 ---------------------
+#define CC_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define CC_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height

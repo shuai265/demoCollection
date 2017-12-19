@@ -56,6 +56,7 @@
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     NSDictionary *itemDict = self.listArr[indexPath.row];
     cell.textLabel.text = itemDict[@"itemTitle"];
+    cell.detailTextLabel.text = itemDict[@"detail"];
     
     return cell;
 }

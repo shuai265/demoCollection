@@ -63,7 +63,7 @@
     _mapManager = [[BMKMapManager alloc] init];
     BOOL ret = [_mapManager start:@"1vA2k0IZO97Faw15eb6nw46mKoXqPHM4" generalDelegate:nil];
     if (!ret) {
-        NSLog(@"manager start failed");
+        DLog(@"manager start failed");
     }
     
     //高德地图

@@ -7,4 +7,8 @@ target 'DemoCollection' do
   #pod 'AMap2DMap' #2D地图SDK (2D和3D不能同时使用)
   pod 'AMapSearch' #高德地图SDK
   pod 'SDCycleScrollView','~> 1.73'
+  pod 'SBJson5', '~> 5.0.0'
+  pod 'GDataXML-HTML', '~> 1.3.0'
+  pod 'MJRefresh'
+  pod 'FMDB'
 end
