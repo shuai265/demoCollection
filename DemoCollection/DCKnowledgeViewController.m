@@ -7,6 +7,7 @@
 //
 
 #import "DCKnowledgeViewController.h"
+#import "DCTypeConvertViewController.h"
 #import "DCKnowledgeSuperSelfViewController.h"
 #import "DCKnowledgeARCMRCViewController.h"
 #import "DCKnowledgeCopyTableViewController.h"
@@ -21,7 +22,8 @@
     [super viewDidLoad];
     self.navigationItem.title = @"知识点";
     
-    self.listArr = @[
+    self.listArr = @[@{@"itemTitle":@"Type Convert",
+                       @"class":DCTypeConvertViewController.class},
                   @{@"itemTitle":@"Super & Self",
                     @"class":DCKnowledgeSuperSelfViewController.class},
                   @{@"itemTitle":@"Copy",

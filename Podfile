@@ -11,4 +11,5 @@ target 'DemoCollection' do
   pod 'GDataXML-HTML', '~> 1.3.0'
   pod 'MJRefresh'
   pod 'FMDB'
+  pod 'KTVHTTPCache', '~> 1.0.0'
 end

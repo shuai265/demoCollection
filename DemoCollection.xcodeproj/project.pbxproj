@@ -70,12 +70,15 @@
 		4BC1641A1FE7B8400037FB33 /* DCNetworkSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164191FE7B8400037FB33 /* DCNetworkSimpleViewController.m */; };
 		4BC1641E1FE8C2880037FB33 /* DCCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1641D1FE8C2880037FB33 /* DCCoreDataViewController.m */; };
 		4BC164211FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1641F1FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld */; };
-		4BC164301FE8CBCB0037FB33 /* CDUser+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1642A1FE8CBCB0037FB33 /* CDUser+CoreDataClass.m */; };
-		4BC164311FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1642B1FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m */; };
-		4BC164321FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1642D1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m */; };
-		4BC164331FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1642F1FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m */; };
 		4BC164371FE8DB990037FB33 /* DCMFDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164361FE8DB980037FB33 /* DCMFDBManager.m */; };
 		4BC1643A1FE8E2260037FB33 /* DCFMDBQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164391FE8E2260037FB33 /* DCFMDBQueueManager.m */; };
+		4BC1643D1FE8F0400037FB33 /* DCNetworkURLSessionDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1643C1FE8F0400037FB33 /* DCNetworkURLSessionDataViewController.m */; };
+		4BC164411FE924360037FB33 /* DCTypeConvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164401FE924360037FB33 /* DCTypeConvertViewController.m */; };
+		4BC164441FEA5B480037FB33 /* DCBlockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164431FEA5B480037FB33 /* DCBlockObject.m */; };
+		4BC164471FEA5B8B0037FB33 /* DCBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164461FEA5B8B0037FB33 /* DCBlockViewController.m */; };
+		4BC1644A1FEA5C4E0037FB33 /* DCDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164491FEA5C4E0037FB33 /* DCDelegateViewController.m */; };
+		4BC1644D1FEA5C950037FB33 /* DCDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1644C1FEA5C950037FB33 /* DCDelegateObject.m */; };
+		4BC164511FEA5F9C0037FB33 /* DCSignletonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164501FEA5F9C0037FB33 /* DCSignletonManager.m */; };
 		4BC537D51FE4FDE600654B6E /* PersonXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4BC537D41FE4FDE600654B6E /* PersonXML.xml */; };
 		4BC537D81FE4FEA900654B6E /* PersonObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC537D71FE4FEA900654B6E /* PersonObj.m */; };
 		4BC537DB1FE5011C00654B6E /* XMLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC537DA1FE5011C00654B6E /* XMLUtil.m */; };
@@ -213,18 +216,24 @@
 		4BC1641C1FE8C2880037FB33 /* DCCoreDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCCoreDataViewController.h; sourceTree = "<group>"; };
 		4BC1641D1FE8C2880037FB33 /* DCCoreDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCCoreDataViewController.m; sourceTree = "<group>"; };
 		4BC164201FE8C2BD0037FB33 /* DCCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DCCoreData.xcdatamodel; sourceTree = "<group>"; };
-		4BC164281FE8CBCA0037FB33 /* CDStatus+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDStatus+CoreDataClass.h"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDStatus+CoreDataClass.h"; sourceTree = "<absolute>"; };
-		4BC164291FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDStatus+CoreDataProperties.h"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDStatus+CoreDataProperties.h"; sourceTree = "<absolute>"; };
-		4BC1642A1FE8CBCB0037FB33 /* CDUser+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDUser+CoreDataClass.m"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDUser+CoreDataClass.m"; sourceTree = "<absolute>"; };
-		4BC1642B1FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDStatus+CoreDataClass.m"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDStatus+CoreDataClass.m"; sourceTree = "<absolute>"; };
-		4BC1642C1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDUser+CoreDataProperties.h"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDUser+CoreDataProperties.h"; sourceTree = "<absolute>"; };
-		4BC1642D1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDUser+CoreDataProperties.m"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDUser+CoreDataProperties.m"; sourceTree = "<absolute>"; };
-		4BC1642E1FE8CBCB0037FB33 /* CDUser+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDUser+CoreDataClass.h"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDUser+CoreDataClass.h"; sourceTree = "<absolute>"; };
-		4BC1642F1FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDStatus+CoreDataProperties.m"; path = "/Users/liushuai/Documents/Project/DemoCollection/DemoCollection/CDStatus+CoreDataProperties.m"; sourceTree = "<absolute>"; };
 		4BC164351FE8DB980037FB33 /* DCMFDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMFDBManager.h; sourceTree = "<group>"; };
 		4BC164361FE8DB980037FB33 /* DCMFDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMFDBManager.m; sourceTree = "<group>"; };
 		4BC164381FE8E2260037FB33 /* DCFMDBQueueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFMDBQueueManager.h; sourceTree = "<group>"; };
 		4BC164391FE8E2260037FB33 /* DCFMDBQueueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFMDBQueueManager.m; sourceTree = "<group>"; };
+		4BC1643B1FE8F0400037FB33 /* DCNetworkURLSessionDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNetworkURLSessionDataViewController.h; sourceTree = "<group>"; };
+		4BC1643C1FE8F0400037FB33 /* DCNetworkURLSessionDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNetworkURLSessionDataViewController.m; sourceTree = "<group>"; };
+		4BC1643F1FE924360037FB33 /* DCTypeConvertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTypeConvertViewController.h; sourceTree = "<group>"; };
+		4BC164401FE924360037FB33 /* DCTypeConvertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTypeConvertViewController.m; sourceTree = "<group>"; };
+		4BC164421FEA5B480037FB33 /* DCBlockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCBlockObject.h; sourceTree = "<group>"; };
+		4BC164431FEA5B480037FB33 /* DCBlockObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBlockObject.m; sourceTree = "<group>"; };
+		4BC164451FEA5B8B0037FB33 /* DCBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCBlockViewController.h; sourceTree = "<group>"; };
+		4BC164461FEA5B8B0037FB33 /* DCBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCBlockViewController.m; sourceTree = "<group>"; };
+		4BC164481FEA5C4E0037FB33 /* DCDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDelegateViewController.h; sourceTree = "<group>"; };
+		4BC164491FEA5C4E0037FB33 /* DCDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDelegateViewController.m; sourceTree = "<group>"; };
+		4BC1644B1FEA5C950037FB33 /* DCDelegateObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDelegateObject.h; sourceTree = "<group>"; };
+		4BC1644C1FEA5C950037FB33 /* DCDelegateObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDelegateObject.m; sourceTree = "<group>"; };
+		4BC1644F1FEA5F9C0037FB33 /* DCSignletonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSignletonManager.h; sourceTree = "<group>"; };
+		4BC164501FEA5F9C0037FB33 /* DCSignletonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCSignletonManager.m; sourceTree = "<group>"; };
 		4BC537D41FE4FDE600654B6E /* PersonXML.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PersonXML.xml; sourceTree = "<group>"; };
 		4BC537D61FE4FEA900654B6E /* PersonObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonObj.h; sourceTree = "<group>"; };
 		4BC537D71FE4FEA900654B6E /* PersonObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonObj.m; sourceTree = "<group>"; };
@@ -601,6 +610,7 @@
 			isa = PBXGroup;
 			children = (
 				4B4AE38B1FD10932003BBB16 /* MainKnowledge */,
+				4BC1643E1FE9240F0037FB33 /* TypeConvert(类型转换) */,
 				4BC163FE1FE7740C0037FB33 /* Super&Self */,
 				4BC163F51FE7695B0037FB33 /* Copy */,
 				4B4AE3591FD0E81A003BBB16 /* ARC&MRC */,
@@ -657,6 +667,8 @@
 			children = (
 				4B4AE39A1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.h */,
 				4B4AE39B1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m */,
+				4BC1644F1FEA5F9C0037FB33 /* DCSignletonManager.h */,
+				4BC164501FEA5F9C0037FB33 /* DCSignletonManager.m */,
 			);
 			name = "Singleton(单例)";
 			sourceTree = "<group>";
@@ -664,6 +676,7 @@
 		4B4AE39D1FD13A2C003BBB16 /* Multithreading(多线程) */ = {
 			isa = PBXGroup;
 			children = (
+				4BC1644E1FEA5E030037FB33 /* GCD */,
 				4B4AE39F1FD13B68003BBB16 /* NSThread */,
 			);
 			name = "Multithreading(多线程)";
@@ -714,6 +727,10 @@
 		4B4AE3A41FD1412F003BBB16 /* Block */ = {
 			isa = PBXGroup;
 			children = (
+				4BC164451FEA5B8B0037FB33 /* DCBlockViewController.h */,
+				4BC164461FEA5B8B0037FB33 /* DCBlockViewController.m */,
+				4BC164421FEA5B480037FB33 /* DCBlockObject.h */,
+				4BC164431FEA5B480037FB33 /* DCBlockObject.m */,
 			);
 			name = Block;
 			sourceTree = "<group>";
@@ -721,6 +738,10 @@
 		4B4AE3A51FD14135003BBB16 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
+				4BC164481FEA5C4E0037FB33 /* DCDelegateViewController.h */,
+				4BC164491FEA5C4E0037FB33 /* DCDelegateViewController.m */,
+				4BC1644B1FEA5C950037FB33 /* DCDelegateObject.h */,
+				4BC1644C1FEA5C950037FB33 /* DCDelegateObject.m */,
 			);
 			name = Delegate;
 			sourceTree = "<group>";
@@ -892,6 +913,8 @@
 				4BC164161FE7A29C0037FB33 /* DCNetworkDelegateViewController.m */,
 				4BC164181FE7B8400037FB33 /* DCNetworkSimpleViewController.h */,
 				4BC164191FE7B8400037FB33 /* DCNetworkSimpleViewController.m */,
+				4BC1643B1FE8F0400037FB33 /* DCNetworkURLSessionDataViewController.h */,
+				4BC1643C1FE8F0400037FB33 /* DCNetworkURLSessionDataViewController.m */,
 			);
 			name = "Network(网络开发)";
 			sourceTree = "<group>";
@@ -902,14 +925,6 @@
 				4BC1641C1FE8C2880037FB33 /* DCCoreDataViewController.h */,
 				4BC1641D1FE8C2880037FB33 /* DCCoreDataViewController.m */,
 				4BC1641F1FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld */,
-				4BC1642E1FE8CBCB0037FB33 /* CDUser+CoreDataClass.h */,
-				4BC1642A1FE8CBCB0037FB33 /* CDUser+CoreDataClass.m */,
-				4BC1642C1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.h */,
-				4BC1642D1FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m */,
-				4BC164291FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.h */,
-				4BC164281FE8CBCA0037FB33 /* CDStatus+CoreDataClass.h */,
-				4BC1642B1FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m */,
-				4BC1642F1FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m */,
 			);
 			name = "Core Data";
 			sourceTree = "<group>";
@@ -923,6 +938,22 @@
 				4BC164391FE8E2260037FB33 /* DCFMDBQueueManager.m */,
 			);
 			name = FMDB;
+			sourceTree = "<group>";
+		};
+		4BC1643E1FE9240F0037FB33 /* TypeConvert(类型转换) */ = {
+			isa = PBXGroup;
+			children = (
+				4BC1643F1FE924360037FB33 /* DCTypeConvertViewController.h */,
+				4BC164401FE924360037FB33 /* DCTypeConvertViewController.m */,
+			);
+			name = "TypeConvert(类型转换)";
+			sourceTree = "<group>";
+		};
+		4BC1644E1FEA5E030037FB33 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GCD;
 			sourceTree = "<group>";
 		};
 		4BC537D01FE4FD9900654B6E /* XML */ = {
@@ -1103,24 +1134,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC164331FE8CBCB0037FB33 /* CDStatus+CoreDataProperties.m in Sources */,
 				4BC1641E1FE8C2880037FB33 /* DCCoreDataViewController.m in Sources */,
 				4BC164141FE7A2110037FB33 /* DCNetworkViewController.m in Sources */,
 				4B1DE0821FA2ED020067B8DA /* DCMainLibNavController.m in Sources */,
 				4B1DE0981FA303D00067B8DA /* DCMapGaodeViewController.m in Sources */,
 				4B3AB7351FE3C5B400D22AF8 /* DCParseXML_JSONViewController.m in Sources */,
+				4BC1643D1FE8F0400037FB33 /* DCNetworkURLSessionDataViewController.m in Sources */,
 				4B58EBF01FD25947008D6759 /* DCCocoaNavController.m in Sources */,
 				4B1DE0A81FA31CB90067B8DA /* DCBaseNavViewController.m in Sources */,
 				4B4AE3981FD10A87003BBB16 /* DCMainCommonlyNavController.m in Sources */,
 				4B1DE09E1FA31A2D0067B8DA /* DCBaseViewController.m in Sources */,
-				4BC164301FE8CBCB0037FB33 /* CDUser+CoreDataClass.m in Sources */,
 				4B1DE0A51FA31C4C0067B8DA /* DCMainServiceNavController.m in Sources */,
 				4B3AB7171FE251EE00D22AF8 /* CCStatus.m in Sources */,
 				4B1DE0591FA2BD4A0067B8DA /* AppDelegate.m in Sources */,
 				4B55DE411FD7D9FC00677AE1 /* DCLazyTableViewController.m in Sources */,
 				4BD4EB481FE0105E0018DC2B /* DCDBSQLiteViewController.m in Sources */,
 				4BC1640D1FE77CC50037FB33 /* Person.m in Sources */,
-				4BC164321FE8CBCB0037FB33 /* CDUser+CoreDataProperties.m in Sources */,
 				4BC1641A1FE7B8400037FB33 /* DCNetworkSimpleViewController.m in Sources */,
 				4B4AE35D1FD0E856003BBB16 /* DCKnowledgeARCMRCViewController.m in Sources */,
 				4BC164211FE8C2BD0037FB33 /* DCCoreData.xcdatamodeld in Sources */,
@@ -1142,13 +1171,15 @@
 				4B3AB70B1FE2477800D22AF8 /* DCDataSaveViewController.m in Sources */,
 				4B4AE3951FD10A65003BBB16 /* DCMainCommonViewController.m in Sources */,
 				4B4AE3911FD10985003BBB16 /* DCKnowledgeViewController.m in Sources */,
+				4BC164411FE924360037FB33 /* DCTypeConvertViewController.m in Sources */,
+				4BC1644D1FEA5C950037FB33 /* DCDelegateObject.m in Sources */,
 				4B1DE0911FA2F1300067B8DA /* DCMapViewController.m in Sources */,
 				4B4AE3611FD0E86D003BBB16 /* DCARCObj.m in Sources */,
 				4B4AE39C1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m in Sources */,
 				4B3AB7381FE3C6F200D22AF8 /* DCParseJSONViewController.m in Sources */,
-				4BC164311FE8CBCB0037FB33 /* CDStatus+CoreDataClass.m in Sources */,
 				4B55DE451FD7DA9800677AE1 /* ParseOperation.m in Sources */,
 				4B58EBF31FD2595B008D6759 /* DCCocoaViewController.m in Sources */,
+				4BC164511FEA5F9C0037FB33 /* DCSignletonManager.m in Sources */,
 				4B58EBF91FD25B86008D6759 /* DCWKWebViewController.m in Sources */,
 				4BC537D81FE4FEA900654B6E /* PersonObj.m in Sources */,
 				4B55DE481FD7DAB400677AE1 /* AppRecord.m in Sources */,
@@ -1159,12 +1190,15 @@
 				4BD4EB441FE00F6D0018DC2B /* DCDBMainTableViewController.m in Sources */,
 				4BC164371FE8DB990037FB33 /* DCMFDBManager.m in Sources */,
 				4B3AB71A1FE25BC500D22AF8 /* CCUserService.m in Sources */,
+				4BC1644A1FEA5C4E0037FB33 /* DCDelegateViewController.m in Sources */,
 				4B1DE0881FA2ED410067B8DA /* DCMainLibViewController.m in Sources */,
+				4BC164441FEA5B480037FB33 /* DCBlockObject.m in Sources */,
 				4B3AB7111FE24A1E00D22AF8 /* CCDatabaseCreator.m in Sources */,
 				4B3AB71D1FE26D8B00D22AF8 /* CCStatusService.m in Sources */,
 				4BC164101FE77EF40037FB33 /* PersonChen.m in Sources */,
 				4BC163F91FE769D30037FB33 /* DCKnowledgeCopyTableViewController.m in Sources */,
 				4B1DE0951FA303C40067B8DA /* DCMapBaiduViewController.m in Sources */,
+				4BC164471FEA5B8B0037FB33 /* DCBlockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

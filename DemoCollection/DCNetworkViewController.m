@@ -9,6 +9,7 @@
 #import "DCNetworkViewController.h"
 #import "DCNetworkDelegateViewController.h"
 #import "DCNetworkSimpleViewController.h"
+#import "DCNetworkURLSessionDataViewController.h"
 
 @interface DCNetworkViewController ()
 
@@ -26,7 +27,11 @@
                      @{@"itemTitle":@"简化请求方法",
                        @"detail":@"NSURLRequest",
                        @"class":DCNetworkSimpleViewController.class
-                       }];
+                       },
+                     @{@"itemTitle":@"NSURLSession",
+                       @"detail":@"",
+                       @"class":DCNetworkURLSessionDataViewController.class
+                         }];
 }
 
 - (void)didReceiveMemoryWarning {

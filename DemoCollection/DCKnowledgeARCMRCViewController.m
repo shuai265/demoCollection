@@ -19,7 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,7 +29,6 @@
     DCMRCObj *mrc = [[DCMRCObj alloc]init];
     [mrc MRCMethod];
 }
-
 
 
 @end
