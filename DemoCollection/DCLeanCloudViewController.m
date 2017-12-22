@@ -7,6 +7,7 @@
 //
 
 #import "DCLeanCloudViewController.h"
+#import "DCLeanCloudUserViewController.h"
 
 @interface DCLeanCloudViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.listArr = @[@{@"itemTitle":@"用户登录",
+                       @"class":DCLeanCloudUserViewController.class
+                       }
+                     ];
+    
 }
 
 - (void)didReceiveMemoryWarning {

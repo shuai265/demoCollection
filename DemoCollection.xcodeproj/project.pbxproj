@@ -79,6 +79,12 @@
 		4BC1644A1FEA5C4E0037FB33 /* DCDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164491FEA5C4E0037FB33 /* DCDelegateViewController.m */; };
 		4BC1644D1FEA5C950037FB33 /* DCDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC1644C1FEA5C950037FB33 /* DCDelegateObject.m */; };
 		4BC164511FEA5F9C0037FB33 /* DCSignletonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164501FEA5F9C0037FB33 /* DCSignletonManager.m */; };
+		4BC164561FEA9C640037FB33 /* DCEqualObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164551FEA9C640037FB33 /* DCEqualObject.m */; };
+		4BC164591FEA9C710037FB33 /* DCEqualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC164581FEA9C710037FB33 /* DCEqualViewController.m */; };
+		4BC437681FECD48000C2D1B0 /* DCNSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC437671FECD48000C2D1B0 /* DCNSTimerViewController.m */; };
+		4BC4376C1FECD62A00C2D1B0 /* DCLeanCloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4376B1FECD62A00C2D1B0 /* DCLeanCloudViewController.m */; };
+		4BC4376F1FECD66400C2D1B0 /* DCLeanCloudUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4376E1FECD66400C2D1B0 /* DCLeanCloudUserViewController.m */; };
+		4BC437721FECD67900C2D1B0 /* DCLeanCloudUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC437711FECD67900C2D1B0 /* DCLeanCloudUser.m */; };
 		4BC537D51FE4FDE600654B6E /* PersonXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4BC537D41FE4FDE600654B6E /* PersonXML.xml */; };
 		4BC537D81FE4FEA900654B6E /* PersonObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC537D71FE4FEA900654B6E /* PersonObj.m */; };
 		4BC537DB1FE5011C00654B6E /* XMLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC537DA1FE5011C00654B6E /* XMLUtil.m */; };
@@ -234,6 +240,19 @@
 		4BC1644C1FEA5C950037FB33 /* DCDelegateObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDelegateObject.m; sourceTree = "<group>"; };
 		4BC1644F1FEA5F9C0037FB33 /* DCSignletonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSignletonManager.h; sourceTree = "<group>"; };
 		4BC164501FEA5F9C0037FB33 /* DCSignletonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCSignletonManager.m; sourceTree = "<group>"; };
+		4BC164521FEA62A60037FB33 /* Prefix_CCAppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix_CCAppConfig.h; sourceTree = "<group>"; };
+		4BC164541FEA9C640037FB33 /* DCEqualObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCEqualObject.h; sourceTree = "<group>"; };
+		4BC164551FEA9C640037FB33 /* DCEqualObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCEqualObject.m; sourceTree = "<group>"; };
+		4BC164571FEA9C710037FB33 /* DCEqualViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCEqualViewController.h; sourceTree = "<group>"; };
+		4BC164581FEA9C710037FB33 /* DCEqualViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCEqualViewController.m; sourceTree = "<group>"; };
+		4BC437661FECD48000C2D1B0 /* DCNSTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNSTimerViewController.h; sourceTree = "<group>"; };
+		4BC437671FECD48000C2D1B0 /* DCNSTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNSTimerViewController.m; sourceTree = "<group>"; };
+		4BC4376A1FECD62A00C2D1B0 /* DCLeanCloudViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLeanCloudViewController.h; sourceTree = "<group>"; };
+		4BC4376B1FECD62A00C2D1B0 /* DCLeanCloudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLeanCloudViewController.m; sourceTree = "<group>"; };
+		4BC4376D1FECD66400C2D1B0 /* DCLeanCloudUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLeanCloudUserViewController.h; sourceTree = "<group>"; };
+		4BC4376E1FECD66400C2D1B0 /* DCLeanCloudUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLeanCloudUserViewController.m; sourceTree = "<group>"; };
+		4BC437701FECD67900C2D1B0 /* DCLeanCloudUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLeanCloudUser.h; sourceTree = "<group>"; };
+		4BC437711FECD67900C2D1B0 /* DCLeanCloudUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLeanCloudUser.m; sourceTree = "<group>"; };
 		4BC537D41FE4FDE600654B6E /* PersonXML.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PersonXML.xml; sourceTree = "<group>"; };
 		4BC537D61FE4FEA900654B6E /* PersonObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonObj.h; sourceTree = "<group>"; };
 		4BC537D71FE4FEA900654B6E /* PersonObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonObj.m; sourceTree = "<group>"; };
@@ -335,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				4B3AB7071FE2247100D22AF8 /* CCAppConfig.h */,
+				4BC164521FEA62A60037FB33 /* Prefix_CCAppConfig.h */,
 				4B9207F71FC511C200C3B6AC /* Defines.h */,
 				4B650BBF1FC65CB9007A6699 /* KeysSecrets.h */,
 				4B650BC01FC65CE7007A6699 /* Demo_KeysSecrets.h */,
@@ -358,6 +378,7 @@
 				4B1DE0771FA2EB9D0067B8DA /* MainServiceNav */,
 				4B1DE07A1FA2EBE40067B8DA /* MainServiceVC */,
 				4B1DE0791FA2EBCF0067B8DA /* Map(地图) */,
+				4BC437691FECD5F600C2D1B0 /* LeanCloud */,
 			);
 			name = "Third party service（第三方服务）";
 			sourceTree = "<group>";
@@ -445,6 +466,7 @@
 				4B650BBD1FC589F1007A6699 /* MainCocoaNav */,
 				4B650BBE1FC589FE007A6699 /* MainCocoaVC */,
 				4B58EBEB1FD2551B008D6759 /* WebView */,
+				4BC437651FECD45200C2D1B0 /* NSTimer */,
 			);
 			name = "Cocoa Lib（Cocoa库）";
 			sourceTree = "<group>";
@@ -610,6 +632,7 @@
 			isa = PBXGroup;
 			children = (
 				4B4AE38B1FD10932003BBB16 /* MainKnowledge */,
+				4BC164531FEA9C450037FB33 /* IsEqual */,
 				4BC1643E1FE9240F0037FB33 /* TypeConvert(类型转换) */,
 				4BC163FE1FE7740C0037FB33 /* Super&Self */,
 				4BC163F51FE7695B0037FB33 /* Copy */,
@@ -956,6 +979,39 @@
 			name = GCD;
 			sourceTree = "<group>";
 		};
+		4BC164531FEA9C450037FB33 /* IsEqual */ = {
+			isa = PBXGroup;
+			children = (
+				4BC164571FEA9C710037FB33 /* DCEqualViewController.h */,
+				4BC164581FEA9C710037FB33 /* DCEqualViewController.m */,
+				4BC164541FEA9C640037FB33 /* DCEqualObject.h */,
+				4BC164551FEA9C640037FB33 /* DCEqualObject.m */,
+			);
+			name = IsEqual;
+			sourceTree = "<group>";
+		};
+		4BC437651FECD45200C2D1B0 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4BC437661FECD48000C2D1B0 /* DCNSTimerViewController.h */,
+				4BC437671FECD48000C2D1B0 /* DCNSTimerViewController.m */,
+			);
+			name = NSTimer;
+			sourceTree = "<group>";
+		};
+		4BC437691FECD5F600C2D1B0 /* LeanCloud */ = {
+			isa = PBXGroup;
+			children = (
+				4BC4376A1FECD62A00C2D1B0 /* DCLeanCloudViewController.h */,
+				4BC4376B1FECD62A00C2D1B0 /* DCLeanCloudViewController.m */,
+				4BC4376D1FECD66400C2D1B0 /* DCLeanCloudUserViewController.h */,
+				4BC4376E1FECD66400C2D1B0 /* DCLeanCloudUserViewController.m */,
+				4BC437701FECD67900C2D1B0 /* DCLeanCloudUser.h */,
+				4BC437711FECD67900C2D1B0 /* DCLeanCloudUser.m */,
+			);
+			name = LeanCloud;
+			sourceTree = "<group>";
+		};
 		4BC537D01FE4FD9900654B6E /* XML */ = {
 			isa = PBXGroup;
 			children = (
@@ -1115,6 +1171,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection-resources.sh",
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
 				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
@@ -1136,12 +1193,14 @@
 			files = (
 				4BC1641E1FE8C2880037FB33 /* DCCoreDataViewController.m in Sources */,
 				4BC164141FE7A2110037FB33 /* DCNetworkViewController.m in Sources */,
+				4BC4376F1FECD66400C2D1B0 /* DCLeanCloudUserViewController.m in Sources */,
 				4B1DE0821FA2ED020067B8DA /* DCMainLibNavController.m in Sources */,
 				4B1DE0981FA303D00067B8DA /* DCMapGaodeViewController.m in Sources */,
 				4B3AB7351FE3C5B400D22AF8 /* DCParseXML_JSONViewController.m in Sources */,
 				4BC1643D1FE8F0400037FB33 /* DCNetworkURLSessionDataViewController.m in Sources */,
 				4B58EBF01FD25947008D6759 /* DCCocoaNavController.m in Sources */,
 				4B1DE0A81FA31CB90067B8DA /* DCBaseNavViewController.m in Sources */,
+				4BC164561FEA9C640037FB33 /* DCEqualObject.m in Sources */,
 				4B4AE3981FD10A87003BBB16 /* DCMainCommonlyNavController.m in Sources */,
 				4B1DE09E1FA31A2D0067B8DA /* DCBaseViewController.m in Sources */,
 				4B1DE0A51FA31C4C0067B8DA /* DCMainServiceNavController.m in Sources */,
@@ -1175,12 +1234,16 @@
 				4BC1644D1FEA5C950037FB33 /* DCDelegateObject.m in Sources */,
 				4B1DE0911FA2F1300067B8DA /* DCMapViewController.m in Sources */,
 				4B4AE3611FD0E86D003BBB16 /* DCARCObj.m in Sources */,
+				4BC437721FECD67900C2D1B0 /* DCLeanCloudUser.m in Sources */,
 				4B4AE39C1FD13A09003BBB16 /* DCKnowledgeSingletonViewController.m in Sources */,
 				4B3AB7381FE3C6F200D22AF8 /* DCParseJSONViewController.m in Sources */,
+				4BC437681FECD48000C2D1B0 /* DCNSTimerViewController.m in Sources */,
 				4B55DE451FD7DA9800677AE1 /* ParseOperation.m in Sources */,
 				4B58EBF31FD2595B008D6759 /* DCCocoaViewController.m in Sources */,
+				4BC164591FEA9C710037FB33 /* DCEqualViewController.m in Sources */,
 				4BC164511FEA5F9C0037FB33 /* DCSignletonManager.m in Sources */,
 				4B58EBF91FD25B86008D6759 /* DCWKWebViewController.m in Sources */,
+				4BC4376C1FECD62A00C2D1B0 /* DCLeanCloudViewController.m in Sources */,
 				4BC537D81FE4FEA900654B6E /* PersonObj.m in Sources */,
 				4B55DE481FD7DAB400677AE1 /* AppRecord.m in Sources */,
 				4B1DE0AB1FA31D640067B8DA /* DCMainServiceController.m in Sources */,

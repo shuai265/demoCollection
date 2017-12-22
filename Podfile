@@ -12,4 +12,7 @@ target 'DemoCollection' do
   pod 'MJRefresh'
   pod 'FMDB'
   pod 'KTVHTTPCache', '~> 1.0.0'
+  pod 'AVOSCloud'                  # The foundation module
+  pod 'AVOSCloudIM'                # The IM module
+  pod 'AVOSCloudCrashReporting'    # The crash reporting module
 end
